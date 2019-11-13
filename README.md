@@ -9,22 +9,29 @@ Download and install the Arduino IDE from:
 	https://www.arduino.cc/en/Main/Software
 ### Configure the Arduino IDE
 Open Arduino IDE
+
 click File->Peferences->Settings
  
 Input last ASR650x board manager URL:
+
 	https://docs.heltec.cn/download/package_CubeCell_index.json
 or
+
 	http://119.23.153.38/download/package_CubeCell_index.json
 
 Click Tools->Board:->Boards Manager...
+
 search Heltec cubecell in the new pop-up dialog
+
 select the latest releases and click install
  
 The source code of Heltec ASR650x series (ASR6501&ASR6502) framework is also available here: 
+
 	https://github.com/HelTecAutomation/ASR650x-Arduino
 
 ## Loading Firmware
 Select the example: 
+
 	File -> examples -> LoRa -> LoRaWan_Sensors -> LoRaWan_Multisensor
  
 
@@ -53,6 +60,7 @@ Login to TTN and create a new device. Get your keys from TTN and set them in the
 
 ## Arduino IDE compile settings
 Correct select the board you had connected to computer and the specified serial port: 
+
 	e.g. CubeCell-Board, CubeCell-Module, CubeCell-Cupsule, COM-Port
  
 Compile and upload it
