@@ -86,7 +86,7 @@ Compile and upload it
 
 # The Things Network decoder
 Login to TTN and define the decoder. 
-The decoder is found in the TTN-Decoder directory.
+The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
 # Connecting a sensor
 
@@ -97,7 +97,7 @@ If not here is the pinout for connecting your sensor:
 
 # CubeCell Configurator
 
-Download the CubeCell Configurator from here (Configurator directory).
+Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCell_Configurator.exe).
 
 - Select your COM Port and click connect.
 - Type in your Keys and DutyCycle (in ms).
