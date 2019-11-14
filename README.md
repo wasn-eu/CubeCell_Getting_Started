@@ -88,6 +88,13 @@ Compile and upload it
 Login to TTN and define the decoder. 
 The decoder is found in the TTN-Decoder directory.
 
+# Connecting a sensor
+
+If you have bought a sensor from our Website (https://www.wasn.eu) then you can just plug it in the capsule.
+If not here is the pinout for connecting your sensor:
+
+![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
+
 # CubeCell Configurator
 
 - Select your COM Port and click connect.
