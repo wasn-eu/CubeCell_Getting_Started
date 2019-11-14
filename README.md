@@ -87,10 +87,10 @@ for maximum flexibility choose AUTO_SCAN.
 
 	#define AUTO_SCAN  1
 	#define MJMCU_8128 0
-	#define BME_680    0 // wrong values
+	#define BME_680    0 
 	#define BME_280    0
 	#define CCS_811    0
-	#define BMP_180    0 // not tested
+	#define BMP_180    0 // not tested, not included in AUTO_SCAN
 	#define HDC_1080   0
 	#define BH_1750    0
 	#define One_Wire   0 // sensors not found
