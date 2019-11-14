@@ -67,6 +67,10 @@ Login to TTN and create a new device. Get your keys from TTN and set them in the
     const char myAppEui[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
     const char myAppKey[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0
 
+Set the DutyCycle in ms:
+
+	uint32_t APP_TX_DUTYCYCLE = 900000; // in ms
+
 If you don't like to set your keys in the sketch just leave them as they are and use the CubeCell Configurator (see the end of this guide).
 
 ## Arduino IDE compile settings
@@ -87,7 +91,7 @@ The decoder is found in the TTN-Decoder directory.
 # CubeCell Configurator
 
 - Select your COM Port and click connect.
-- Type in your Keys
+- Type in your Keys and DutyCycle (in ms).
 - Click on Write
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
