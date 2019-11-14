@@ -66,6 +66,8 @@ Login to TTN and create a new device. Get your keys from TTN and set them in the
     const char myAppEui[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
     const char myAppKey[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0
 
+If you don't like to set your keys in the sketch just leave them as they are and use the CubeCell Configurator (see the end of this guide).
+
 ## Arduino IDE compile settings
 Correct select the board you had connected to computer and the specified serial port: 
 
@@ -80,3 +82,13 @@ Compile and upload it
 # The Things Network decoder
 Login to TTN and define the decoder. 
 The decoder is found in the example directory.
+
+# CubeCell Configurator
+
+- Select your COM Port and click connect.
+- Type in your Keys
+- Click on Write
+
+![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
+
+Now the keys are set and the CubeCell device will reboot.
