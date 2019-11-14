@@ -42,6 +42,7 @@ Select the example:
 
 ![Example](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Example.PNG)
  
+If you would like to use the latest version of this sketch you can download it here (LoRaWan_MultiSensor directory).
 
 This sketch allows you to use a number of sensors. All you have to do is to set the number to a 1 beside the sensor you would like to use 
 (only 1 selection is possible, selecting more will result in errors).
@@ -81,7 +82,7 @@ Compile and upload it
 
 # The Things Network decoder
 Login to TTN and define the decoder. 
-The decoder is found in the example directory.
+The decoder is found in the TTN-Decoder directory.
 
 # CubeCell Configurator
 
