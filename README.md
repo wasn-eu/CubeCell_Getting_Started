@@ -31,9 +31,35 @@ search Heltec cubecell in the new pop-up dialog
 
 select the latest releases and click install
  
-The source code of Heltec ASR650x series (ASR6501&ASR6502) framework is also available here: 
+## Using the GitHub Version
 
-	https://github.com/HelTecAutomation/ASR650x-Arduino
+This is maybe not the correct way but it works.
+
+Install the latest version with the board manager (see above).
+
+Go to
+	C:\Users\USERNAME\AppData\Local\arduino15\packages\CubeCell\hardware\CubeCell
+
+Delete the directory 
+	0.0.3
+	
+Open the git bash there:
+	git clone  https://github.com/HelTecAutomation/ASR650x-Arduino.git 0.0.3
+
+Go to
+	C:\Users\USERNAME\AppData\Local\arduino15\packages\CubeCell\hardware\CubeCell\0.0.3\tools
+Run
+	get.exe
+
+Now you have the most recent version installed.
+To Update it, go to:
+	C:\Users\USERNAME\AppData\Local\arduino15\packages\CubeCell\hardware\CubeCell\0.0.3
+and open git bash here:
+	git pull origin master
+Go to
+	C:\Users\USERNAME\AppData\Local\arduino15\packages\CubeCell\hardware\CubeCell\0.0.3\tools
+Run
+	get.exe
 
 ## Loading Firmware
 Select the example: 
