@@ -74,9 +74,18 @@ Set the DutyCycle in ms:
 If you don't like to set your keys in the sketch just leave them as they are and use the CubeCell Configurator (see the end of this guide).
 
 ## Arduino IDE compile settings
-Correct select the board you had connected to computer and the specified serial port: 
+Select the board you have connected and the serial port: 
 
 	e.g. CubeCell-Board, CubeCell-Module, CubeCell-Cupsule, COM-Port
+
+Select your all LoRa specific settings:
+- Region: REGION_EU868 (select the region you are in)
+- Class: CLASS_A
+- Netmode: OTAA 
+- ADR: ON
+- Net_Reservation: ON
+- AT_SUPPORT: ON (need to be ON to use the CubeCell Configurator, OFF for saving power but you must set the keys in the sketch)
+- RGB: ACTIVE (for status display with the RGB led, select DEACTIVE for saving power)
 
 ![LoRa Settings](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/LoRa_Settings.PNG)
  
