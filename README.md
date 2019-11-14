@@ -97,6 +97,8 @@ If not here is the pinout for connecting your sensor:
 
 # CubeCell Configurator
 
+Download the CubeCell Configurator from here (Configurator directory).
+
 - Select your COM Port and click connect.
 - Type in your Keys and DutyCycle (in ms).
 - Click on Write
