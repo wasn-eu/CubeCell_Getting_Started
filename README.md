@@ -90,7 +90,7 @@ The decoder is found in the TTN-Decoder directory.
 
 # Connecting a sensor
 
-If you have bought a sensor from our Website (https://www.wasn.eu) then you can just plug it in the capsule.
+If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) then you can just plug it in the capsule.
 If not here is the pinout for connecting your sensor:
 
 ![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
@@ -104,3 +104,14 @@ If not here is the pinout for connecting your sensor:
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
 
 Now the keys are set and the CubeCell device will reboot.
+
+# Connecting a battery to the CubeCell Capsule
+
+This battery fits nicely in the capsule ([buy](https://www.wasn.eu/p/akku-100mah-fuer-capsule))
+
+![Battery](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Battery.PNG)
+
+If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-capsule)) there is a battery connector installed.
+If not you have to solder a connector or the battery directly to this two solder pads:
+
+![Battery Connection](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery.png)
