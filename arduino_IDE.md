@@ -101,7 +101,7 @@ Set the DutyCycle in ms:
 
 	uint32_t APP_TX_DUTYCYCLE = 900000; // in ms
 
-If you don't like to set your keys and DutyCycle in the sketch just leave them as they are and use the CubeCell Configurator (see the end of this guide).
+If you don't like to set your keys and DutyCycle in the sketch just leave them as they are and use the CubeCell Configurator (see the this [guide](https://github.com/raystream/CubeCell_Getting_Started/blob/master/README.md)).
 
 ## Arduino IDE compile settings
 Select the board you have connected and the serial port: 
