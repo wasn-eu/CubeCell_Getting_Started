@@ -2,7 +2,8 @@
 # with LoRaWan MultiSensor Firmware
 # (c) by WASN.eu 
 
-# Use CubeCell Configurator to upload firmware
+
+## Use CubeCell Configurator to upload firmware
 
 The easy way to get the Capsule up and running is:
 
@@ -38,7 +39,7 @@ The firmware auto detect the connected I2C sensor. These sensors are supported:
 
 If you would like to use the Arduino IDE to compile and upload the firmware please follow this [guide](https://github.com/raystream/CubeCell_Getting_Started/blob/master/arduino_IDE.md).
 
-# use CubeCell Configurator for CubeCell configuration
+## use CubeCell Configurator for CubeCell configuration
 
 - Login to TTN and create a new device. Get your keys from TTN.
 - Select your COM Port and click connect.
@@ -50,18 +51,18 @@ If you would like to use the Arduino IDE to compile and upload the firmware plea
 
 Now the keys are set and the CubeCell device will reboot.
 
-# The Things Network decoder
+## The Things Network decoder
 Login to TTN and define the decoder. 
 The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
-# Connecting a sensor
+## Connecting a sensor
 
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) then you can just plug it in the capsule.
 If not here is the pinout for connecting your sensor:
 
 ![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
 
-# Connecting a battery to the CubeCell Capsule
+## Connecting a battery to the CubeCell Capsule
 
 This battery fits nicely in the capsule ([buy](https://www.wasn.eu/p/akku-100mah-fuer-capsule))
 
