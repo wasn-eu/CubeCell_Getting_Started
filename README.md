@@ -2,7 +2,7 @@
 # with LoRaWan_MultiSensor example
 # (c) by WASN.eu 
 
-# Use CubeCellConfigurator to upload firmware
+# Use CubeCell Configurator to upload firmware
 
 The easy way to get the Capsule up and running is:
 
