@@ -1,5 +1,5 @@
 # CubeCell Getting Started Guide
-# with LoRaWan_MultiSensor example
+# with LoRaWan MultiSensor Firmware
 # (c) by WASN.eu 
 
 # Use CubeCell Configurator to upload firmware
