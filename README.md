@@ -140,7 +140,7 @@ If not here is the pinout for connecting your sensor:
 
 # CubeCell Configurator
 
-Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCell_Configurator.exe).
+Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
 
 - Select your COM Port and click connect.
 - Type in your Keys and DutyCycle (in ms).
