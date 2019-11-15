@@ -127,6 +127,27 @@ Compile and upload it
  
 ![Compile](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Compile.PNG)
 
+## Use CubeCellConfigurator to upload firmware
+
+The easy way to get the Capsule up and running is:
+
+- Download the capsule_multisensor.ino.cyacd file from the Firmware directory
+- Open the CubeCell Configurator
+- Select the right COM port
+- click Flash Firmware and select the downloaded file: capsule_multisensor.ino.cyacd
+- click ok and the firmware will be written to the capsule
+
+The firmware has the following config:
+
+- REGION_EU868
+- CLASS_A
+- OTAA
+- ADR: ON
+- Net_Reservation: ON
+- AT_SUPPORT: ON
+- RGB: ACTIVE
+- All Keys set to zero
+
 # The Things Network decoder
 Login to TTN and define the decoder. 
 The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
