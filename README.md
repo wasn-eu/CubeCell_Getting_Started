@@ -10,7 +10,7 @@ The easy way to get the Capsule up and running is:
 - Download the [capsule_multisensor.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor.cyacd) file from the Firmware directory
 - Open the CubeCell Configurator
 - Select the right COM port
-- click Flash Firmware and select the downloaded file: capsule_multisensor.cyacd
+- click Flash Firmware and select the downloaded file: [capsule_multisensor.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor.cyacd)
 - click ok and the firmware will be written to the capsule
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
