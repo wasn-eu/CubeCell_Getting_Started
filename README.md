@@ -74,7 +74,7 @@ Select the example:
 
 	File -> examples -> LoRa -> LoRaWan_Sensors -> LoRaWan_Multisensor
 
-![Example](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Example.PNG)
+![Example](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Example_new.PNG)
  
 If you would like to use the latest version of this sketch you can download it here (LoRaWan_MultiSensor directory).
 
