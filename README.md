@@ -8,7 +8,9 @@
 The easy way to get the Capsule up and running is:
 
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
-- Download the [capsule_multisensor.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor.cyacd) file from the Firmware directory
+- Download the firmware file from the Firmware directory:
+ - [capsule_multisensor_RGBoff.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor_RGBoff.cyacd) RGB-LED off
+  - [capsule_multisensor_RGBon.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor_RGBoff.cyacd) RGB-LED on
 - Open the CubeCell Configurator
 - Select the right COM port
 - click Flash Firmware and select the downloaded file: [capsule_multisensor.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor.cyacd)
@@ -24,7 +26,7 @@ The firmware has the following config:
 - ADR: ON
 - Net_Reservation: ON
 - AT_SUPPORT: ON
-- RGB: ACTIVE
+- RGB: ACTIVE for firmware file with RGBon, DEACTIVE for firmware file with RGBoff
 - All Keys set to zero
 
 The firmware auto detect the connected I2C sensor. These sensors are supported:
