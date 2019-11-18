@@ -31,13 +31,13 @@ The firmware has the following config:
 
 The firmware auto detect the connected I2C sensor. These sensors are supported:
 
-- MJMCU-8128
+- BH1750   
 - BME680 
 - BME280 
+- BMP180
+- BMP280
 - CCS811   
-- BMP180   
 - HDC1080  
-- BH1750   
 
 If you would like to use the Arduino IDE to compile and upload the firmware please follow this [guide](https://github.com/raystream/CubeCell_Getting_Started/blob/master/arduino_IDE.md).
 
