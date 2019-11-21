@@ -47,11 +47,11 @@ function Decoder(bytes, port) {
         decoded.BMP280_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
         decoded.BMP280_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
       }
-      else if (sendor === "8") { // SHT2X
+      else if (sensor === "8") { // SHT2X
         decoded.SHT2X_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
         decoded.SHT2X_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
       }
-      else if (sendor === "9") { // ADS1015/ADS1115
+      else if (sensor === "9") { // ADS1015/ADS1115
         decoded.ADS1015_ADC0 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
         decoded.ADS1015_ADC1 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
         decoded.ADS1015_ADC2 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
