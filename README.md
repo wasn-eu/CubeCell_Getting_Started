@@ -31,6 +31,7 @@ The firmware has the following config:
 
 The firmware auto detect the connected I2C sensor. These sensors are supported:
 
+- ADS1015/ADS1115
 - BH1750   
 - BME680 
 - BME280 
@@ -38,6 +39,7 @@ The firmware auto detect the connected I2C sensor. These sensors are supported:
 - BMP280
 - CCS811   
 - HDC1080
+- SHT2x
 
 ## Use CubeCell Configurator for CubeCell configuration
 
