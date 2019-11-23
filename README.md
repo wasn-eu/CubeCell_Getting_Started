@@ -8,27 +8,24 @@
 The easy way to get the Capsule up and running is:
 
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
-- Download the firmware file from the Firmware directory:
-  * [capsule_multisensor_EU868_RGBoff.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor_EU868_RGBoff.cyacd) EU868, RGB-LED off
-  * [capsule_multisensor_EU868_RGBon.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor_EU868_RGBoff.cyacd) EU868, RGB-LED on
-  * [capsule_multisensor_US915_RGBoff.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor_US915_RGBoff.cyacd) US915, RGB-LED off
-  * [capsule_multisensor_US915_RGBon.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor_US915_RGBoff.cyacd) US915, RGB-LED on
 - Open the CubeCell Configurator
 - Select the right COM port
-- click Flash Firmware and select the downloaded file: [capsule_multisensor.cyacd](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Firmware/capsule_multisensor.cyacd)
-- click ok and the firmware will be written to the capsule
+- Select the right frequency band
+- Select if the RGB LED sould be on or off
+- click Flash Firmware
+- The firmware will be written to the capsule
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
 
 The firmware has the following config:
 
-- REGION_EU868 for firmware file with EU868, US915 for firmware file with US915
+- REGION_EU868, US915 
 - CLASS_A
 - OTAA
 - ADR: ON
 - Net_Reservation: ON
 - AT_SUPPORT: ON
-- RGB: ACTIVE for firmware file with RGBon, DEACTIVE for firmware file with RGBoff
+- RGB: ACTIVE, DEACTIVE
 - All Keys set to zero
 
 The firmware auto detect the connected I2C sensor. These sensors are supported:
