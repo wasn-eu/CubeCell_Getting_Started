@@ -11,7 +11,7 @@ The easy way to get the Capsule up and running is:
 - Open the CubeCell Configurator
 - Select the right COM port
 - Select the right frequency band
-- Select if the RGB LED sould be on or off
+- Select RGB LED: on/off
 - click Flash Firmware
 - Firmware is downloaded from github.
 - The firmware will be written to the capsule
