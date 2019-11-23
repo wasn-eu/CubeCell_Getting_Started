@@ -20,7 +20,7 @@ The easy way to get the Capsule up and running is:
 
 The firmware has the following config:
 
-- REGION_EU868, US915 
+- REGION_EU868, US915, AU915, AU915SB2
 - CLASS_A
 - OTAA
 - ADR: ON
