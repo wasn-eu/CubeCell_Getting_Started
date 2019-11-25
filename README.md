@@ -41,6 +41,8 @@ The firmware auto detect the connected I2C sensor. These sensors are supported:
 - HDC1080
 - SHT2x
 
+OneWire Sensors are supported now on PIN GPIO1
+
 ## Use CubeCell Configurator for CubeCell configuration
 
 - Login to TTN and create a new device. Get your keys from TTN.
