@@ -57,7 +57,7 @@ if (port === 2) {
       decoded.ADS1015_ADC2 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
       decoded.ADS1015_ADC3 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
     }
-    else if (sensor === "100") { // OneWire
+    else if (sensor >= 100) { // OneWire
       decoded.OneWire_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1);   
     }
   } 
