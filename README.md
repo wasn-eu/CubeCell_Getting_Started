@@ -10,11 +10,12 @@ The easy way to get the Capsule up and running is:
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
 - Open the CubeCell Configurator
 - Select the right COM port
+- Select the CubeCell Type
 - Select the right frequency band
 - Select RGB LED: on/off
 - click Flash Firmware
-- Firmware is downloaded from github.
-- The firmware will be written to the capsule
+-- Firmware is now downloaded from github.
+-- The firmware will be written to the capsule
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
 
