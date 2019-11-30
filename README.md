@@ -2,6 +2,11 @@
 # with LoRaWan MultiSensor Firmware
 # (c) by WASN.eu 
 
+## Connecting the Capsule to your Computer
+
+- connect the USB board to the capsule
+  - the white dot on the USB board must align with the white dot on the capsule (beside the Reset button)
+![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
 
 ## Use CubeCell Configurator to upload firmware
 
