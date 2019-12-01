@@ -2,22 +2,22 @@
 # with LoRaWan MultiSensor Firmware
 # (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150>
 
-[Connecting the Cubell to your computer](#connecting-the-cubecell-to-your-computer)
-[Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)
-[Use CubeCell Configurator for CubeCell configuration](#use-cubecell-configurator-for-cubecell-configuration)
-[The Things Network decoder](#the-things-network-decoder)
-[Connecting a sensor](#connecting-a-sensor)
-[Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)
+[Connecting the Cubell to your computer](#connecting-the-cubecell-to-your-computer)  
+[Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
+[Use CubeCell Configurator for CubeCell configuration](#use-cubecell-configurator-for-cubecell-configuration)  
+[The Things Network decoder](#the-things-network-decoder)  
+[Connecting a sensor](#connecting-a-sensor)  
+[Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
 
 
 ## Connecting the CubeCell to your Computer
 
-- connect the USB board to the capsule
-![USB_Board](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/USB_board.jpg)
-  - the white dot on the USB board must align with the white dot on the capsule (beside the Reset button)
-![Capsule_Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg)
-![Capsule_and_USB](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg)
-- connect the micro USB of the USB board to your computer
+- connect the USB board to the capsule  
+![USB_Board](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/USB_board.jpg)  
+  - the white dot on the USB board must align with the white dot on the capsule (beside the Reset button)  
+![Capsule_Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg)  
+![Capsule_and_USB](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg)  
+- connect the micro USB of the USB board to your computer  
 
 If you have a CubeCell board just connect the micro USB to your computer
 
@@ -25,7 +25,7 @@ If you have a CubeCell board just connect the micro USB to your computer
 
 The easy way to get the Capsule up and running is:
 
-- Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
+- Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
 - Open the CubeCell Configurator
   - Select the right COM port
   - Select the CubeCell Type
