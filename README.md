@@ -1,6 +1,6 @@
 # ![HelTec](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png) CubeCell Getting Started Guide
 # with LoRaWan MultiSensor Firmware
-# (c) by WASN.eu 
+# (c) by ![WASN.eu](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png) 
 
 ## Connecting the CubeCell to your Computer
 
