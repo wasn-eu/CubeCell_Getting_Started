@@ -5,8 +5,10 @@
 ## Connecting the CubeCell to your Computer
 
 - connect the USB board to the capsule
+![USB_Board](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/USB_board.jpg)
   - the white dot on the USB board must align with the white dot on the capsule (beside the Reset button)
-![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
+![Capsule_Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg)
+![Capsule_and_USB](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg)
 - connect the micro USB of the USB board to your computer
 - if you have a CubeCell board just connect the micro USB to your computer
 
@@ -70,6 +72,7 @@ The decoder can be downloaded from here [download](https://github.com/raystream/
 ## Connecting a sensor
 
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) then you can just plug it in the capsule.
+![Capaule_and_Sensor](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg)
 If not here is the pinout for connecting your sensor:
 
 ![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
