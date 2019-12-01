@@ -13,10 +13,10 @@
 ## Connecting the CubeCell to your Computer
 
 - connect the USB board to the capsule  
-![USB_Board](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/USB_board.jpg)  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/USB_board.jpg" width=500>  
   - the white dot on the USB board must align with the white dot on the capsule (beside the Reset button)  
-![Capsule_Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg)  
-![Capsule_and_USB](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg)  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg" width=500>   
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg" width=500>    
 - connect the micro USB of the USB board to your computer  
 
 If you have a CubeCell board just connect the micro USB to your computer
@@ -35,7 +35,7 @@ The easy way to get the Capsule up and running is:
     - Firmware is now downloaded from github.
     - The firmware will be written to the capsule
 
-![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
 
 The firmware has the following config:
 
@@ -81,7 +81,7 @@ OneWire Sensors are supported now on PIN GPIO1.
   - Type in your Keys and DutyCycle.
   - Click on Write.
 
-![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
 
 Now the keys are saved and the CubeCell device will reboot.
 
@@ -93,11 +93,11 @@ The decoder can be downloaded from here [download](https://github.com/raystream/
 ## Connecting a sensor
 
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule.
-![Capaule_and_Sensor](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg" width=500>  
 
 If not here is the pinout for connecting your sensor:
 
-![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG" width=500>  
 
 - Vext is used for powering the sensors. This pin only delivers power to the sensor when taking the measurement.
 - use VS and GND to connect a solar panel (5.5 - 7V).
@@ -122,12 +122,12 @@ OneWire Sensors are supported now on PIN GPIO1.
 
 This battery fits nicely in the capsule ([buy](https://www.wasn.eu/p/akku-100mah-fuer-capsule))
 
-![Battery](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Battery.PNG)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Battery.PNG" width=500>  
 
 If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-capsule)) there is a battery connector installed.
 
-![Battery Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png" width=500>  
 
 If not you have to solder a connector or the battery directly to this two solder pads:
 
-![Battery Connection](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery.png)
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery.png" width=500>
