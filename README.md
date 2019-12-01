@@ -3,10 +3,6 @@
 # (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150>
 
 
-[TOCM]
-
-[TOC]
-
 [Connecting the Cubell to your computer](#connecting-the-cubecell-to-your-computer)  
 [Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
 [Use CubeCell Configurator for CubeCell configuration](#use-cubecell-configurator-for-cubecell-configuration)  
