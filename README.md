@@ -71,7 +71,7 @@ The decoder can be downloaded from here [download](https://github.com/raystream/
 
 ## Connecting a sensor
 
-If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) then you can just plug it in the capsule.
+If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule.
 ![Capaule_and_Sensor](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg)
 If not here is the pinout for connecting your sensor:
 
