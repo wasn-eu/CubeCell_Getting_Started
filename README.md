@@ -1,4 +1,4 @@
-# ![HelTec](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.jpg) CubeCell Getting Started Guide
+# ![HelTec](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png) CubeCell Getting Started Guide
 # with LoRaWan MultiSensor Firmware
 # (c) by WASN.eu 
 
