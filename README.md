@@ -78,6 +78,9 @@ If not here is the pinout for connecting your sensor:
 
 ![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
 
+- Vext is used for powering the sensors. This pin delivers only power to the sensor for taking the measurement.
+- use VS and GND to connect a solar panel (5.5 - 7V).
+
 ## Connecting a battery to the CubeCell Capsule
 
 This battery fits nicely in the capsule ([buy](https://www.wasn.eu/p/akku-100mah-fuer-capsule))
