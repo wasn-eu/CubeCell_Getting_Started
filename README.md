@@ -10,7 +10,8 @@
 ![Capsule_Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg)
 ![Capsule_and_USB](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg)
 - connect the micro USB of the USB board to your computer
-- if you have a CubeCell board just connect the micro USB to your computer
+
+If you have a CubeCell board just connect the micro USB to your computer
 
 ## Use CubeCell Configurator to upload firmware
 
