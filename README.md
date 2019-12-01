@@ -88,6 +88,9 @@ This battery fits nicely in the capsule ([buy](https://www.wasn.eu/p/akku-100mah
 ![Battery](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Battery.PNG)
 
 If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-capsule)) there is a battery connector installed.
+
+![Battery Connector](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png)
+
 If not you have to solder a connector or the battery directly to this two solder pads:
 
 ![Battery Connection](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery.png)
