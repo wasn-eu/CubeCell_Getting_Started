@@ -19,13 +19,13 @@ The easy way to get the Capsule up and running is:
 
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).
 - Open the CubeCell Configurator
-- Select the right COM port
-- Select the CubeCell Type
-- Select the right frequency band
-- Select RGB LED: on/off
-- click Flash Firmware
-  - Firmware is now downloaded from github.
-  - The firmware will be written to the capsule
+  - Select the right COM port
+  - Select the CubeCell Type
+  - Select the right frequency band
+  - Select RGB LED: on/off
+  - click Flash Firmware
+    - Firmware is now downloaded from github.
+    - The firmware will be written to the capsule
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
 
@@ -40,7 +40,7 @@ The firmware has the following config:
 - RGB: ACTIVE, DEACTIVE
 - All Keys set to zero
 
-The firmware auto detect the connected I2C sensor. These sensors are supported:
+The firmware auto detects the connected I2C sensor. These sensors are supported:
 
 - ADS1015/ADS1115
 - BH1750   
@@ -52,19 +52,20 @@ The firmware auto detect the connected I2C sensor. These sensors are supported:
 - HDC1080
 - SHT2x
 
-OneWire Sensors are supported now on PIN GPIO1
+OneWire Sensors are supported now on PIN GPIO1.
 
 ## Use CubeCell Configurator for CubeCell configuration
 
 - Login to TTN and create a new device. Get your keys from TTN.
-- Select your COM Port and click connect.
-- Keys and DutyCycle are read from the CubeCell device.
-- Type in your Keys and DutyCycle.
-- Click on Write
+- Open the CubeCell Configurator
+  - Select your COM Port and click connect.
+  - Keys and DutyCycle are read from the CubeCell device.
+  - Type in your Keys and DutyCycle.
+  - Click on Write
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
 
-Now the keys are set and the CubeCell device will reboot.
+Now the keys are saved and the CubeCell device will reboot.
 
 ## The Things Network decoder
 Login to TTN and define the decoder. 
@@ -74,6 +75,7 @@ The decoder can be downloaded from here [download](https://github.com/raystream/
 
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule.
 ![Capaule_and_Sensor](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg)
+
 If not here is the pinout for connecting your sensor:
 
 ![PinOut](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG)
