@@ -56,7 +56,7 @@ The firmware has the following config:
 
 The firmware auto detects the connected I2C sensor.  
 You can connect more than one sensor to the I2C bus.  
-The only limitation is, that you can connect only 1 sensor of each modell. 
+The only limitation is, that you can connect only 1 sensor of each modell.  
 These sensors are supported:
 
 - ADS1015/ADS1115
@@ -101,6 +101,22 @@ If not here is the pinout for connecting your sensor:
 
 - Vext is used for powering the sensors. This pin only delivers power to the sensor when taking the measurement.
 - use VS and GND to connect a solar panel (5.5 - 7V).
+
+You can connect more than one sensor to the I2C bus.  
+The only limitation is, that you can connect only 1 sensor of each modell.  
+These sensors are supported:
+
+- ADS1015/ADS1115
+- BH1750   
+- BME680 
+- BME280 
+- BMP180
+- BMP280
+- CCS811   
+- HDC1080
+- SHT2x
+
+OneWire Sensors are supported now on PIN GPIO1.
 
 ## Connecting a battery to the CubeCell Capsule
 
