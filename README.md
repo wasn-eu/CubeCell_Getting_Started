@@ -64,19 +64,21 @@ OneWire Sensors are supported now on PIN GPIO1.
 
 ## Use CubeCell Configurator for CubeCell configuration
 
-- Login to TTN and create a new device. Get your keys from TTN.
+- Login to TTN and create a new device. 
+  - Get your keys from TTN.
 - Open the CubeCell Configurator
   - Select your COM Port and click connect.
   - Keys and DutyCycle are read from the CubeCell device.
   - Type in your Keys and DutyCycle.
-  - Click on Write
+  - Click on Write.
 
 ![Configurator](https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG)
 
 Now the keys are saved and the CubeCell device will reboot.
 
 ## The Things Network decoder
-Login to TTN and define the decoder. 
+
+Login to TTN and define the decoder.  
 The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
 ## Connecting a sensor
