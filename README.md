@@ -28,9 +28,9 @@ The easy way to get the Capsule up and running is:
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
 - Open the CubeCell Configurator
   - Select the right COM port
-  - Select the CubeCell Type
-  - Select the right frequency band
-  - Select RGB LED: on/off
+  - Select the CubeCell Type (board, capsule)
+  - Select the right frequency band (EU868, US915, AU915, AU915SB2)
+  - Select RGB LED Status (on, off)
   - click Flash Firmware
     - Firmware is now downloaded from github.
     - The firmware will be written to the capsule
@@ -54,7 +54,10 @@ The firmware has the following config:
   - DEACTIVE
 - All Keys set to zero
 
-The firmware auto detects the connected I2C sensor. These sensors are supported:
+The firmware auto detects the connected I2C sensor.  
+You can connect more than one sensor to the I2C bus.  
+The only limitation is, that you can connect only 1 sensor of each modell. 
+These sensors are supported:
 
 - ADS1015/ADS1115
 - BH1750   
