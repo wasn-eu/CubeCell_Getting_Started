@@ -2,6 +2,14 @@
 # with LoRaWan MultiSensor Firmware
 # (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150>
 
+[Connecting the Cubell to your computer](#connecting-the-cubecell-to-your-computer)
+[Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)
+[Use CubeCell Configurator for CubeCell configuration](#use-cubecell-configurator-for-cubecell-configuration)
+[The Things Network decoder](#the-things-network-decoder)
+[Connecting a sensor](#connecting-a-sensor)
+[Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)
+
+
 ## Connecting the CubeCell to your Computer
 
 - connect the USB board to the capsule
