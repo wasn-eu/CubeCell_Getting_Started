@@ -39,13 +39,19 @@ The easy way to get the Capsule up and running is:
 
 The firmware has the following config:
 
-- REGION_EU868, US915, AU915, AU915SB2
+- REGION: (selectable)
+  - EU868
+  - US915
+  - AU915
+  - AU915SB2
 - CLASS_A
 - OTAA
 - ADR: ON
 - Net_Reservation: ON
 - AT_SUPPORT: ON
-- RGB: ACTIVE, DEACTIVE
+- RGB: (selectable)
+  - ACTIVE
+  - DEACTIVE
 - All Keys set to zero
 
 The firmware auto detects the connected I2C sensor. These sensors are supported:
