@@ -32,7 +32,8 @@ The easy way to get the Capsule up and running is:
 
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
 - Open the CubeCell Configurator
-  - Select the right COM port
+  - Select the right COM port (don't click connect)
+  - Select the Flash Tab
   - Select the CubeCell Type (board, capsule)
   - Select the right frequency band (EU868, US915, AU915, AU915SB2)
   - Select RGB LED Status (on, off)
@@ -84,6 +85,7 @@ OneWire Sensors are supported now on PIN GPIO1.
   - Get your keys from TTN.
 - Open the CubeCell Configurator
   - Select your COM Port and click connect.
+  - Select the Config Tab
   - Keys and DutyCycle are read from the CubeCell device.
   - Type in your Keys and DutyCycle.
   - Click on Write.
