@@ -41,7 +41,7 @@ The easy way to get the Capsule up and running is:
     - The firmware will be written to the capsule
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
 </p>
 
 The firmware has the following config:
