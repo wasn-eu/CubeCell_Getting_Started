@@ -51,7 +51,6 @@ The firmware has the following config:
   - EU868
   - US915
   - AU915
-  - AU915SB2
 - CLASS_A
 - OTAA
 - ADR: ON
@@ -75,6 +74,7 @@ These sensors are supported:
 - BMP280
 - CCS811   
 - HDC1080
+- MPU9250
 - SHT2x
 
 OneWire Sensors are supported now on PIN GPIO1.

@@ -11,66 +11,79 @@ function Decoder(bytes, port) {
 
 var decoded = {};
 i = 0;
-decoded.AppDataSize = bytes.length;
+//decoded.AppDataSize = bytes.length;
 
 if (port === 2) {
   while (i < bytes.length-2) {
     sensor = bytes[i++].toFixed(0);
     if (sensor === "1") { // BME680
-      decoded.BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
-      decoded.BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
-      decoded.BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
-      decoded.BME680_gas = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
-      decoded.BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+      decoded.BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
+      decoded.BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      decoded.BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      decoded.BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+      decoded.BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
     }
     if (sensor === "2") { // BME280
-      decoded.BME280_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
-      decoded.BME280_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
-      decoded.BME280_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
+      decoded.BME280_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+      decoded.BME280_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      decoded.BME280_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
     }
     if (sensor === "3") { // CCS811
-      decoded.CCS811_co2 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
-      decoded.CCS811_tvoc =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+      decoded.CCS811_co2 =  ((bytes[i++] << 8) | bytes[i++]);
+      decoded.CCS811_tvoc =  ((bytes[i++] << 8) | bytes[i++]);
     }
     if (sensor === "4") { // HDC1080
-      decoded.HDC1080_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
-      decoded.HDC1080_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
+      decoded.HDC1080_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
+      decoded.HDC1080_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
     }
     if (sensor === "5") { // BMP180
-      decoded.BMP180_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
-      decoded.BMP180_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
+      decoded.BMP180_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
+      decoded.BMP180_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
     }
     if (sensor === "6") { // BH1750
-      decoded.BH1750_lux = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
+      decoded.BH1750_lux = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
     }
     if (sensor === "7") { // BMP280
-      decoded.BMP280_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
-      decoded.BMP280_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
+      decoded.BMP280_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
+      decoded.BMP280_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
     }
     else if (sensor === "8") { // SHT2X
-      decoded.SHT2X_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1); 
-      decoded.SHT2X_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10).toFixed(1);
+      decoded.SHT2X_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
+      decoded.SHT2X_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
     }
     else if (sensor === "9") { // ADS1015/ADS1115
-      decoded.ADS1015_ADC0 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
-      decoded.ADS1015_ADC1 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
-      decoded.ADS1015_ADC2 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
-      decoded.ADS1015_ADC3 =  ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+      decoded.ADS1015_ADC0 =  ((bytes[i++] << 8) | bytes[i++]);
+      decoded.ADS1015_ADC1 =  ((bytes[i++] << 8) | bytes[i++]);
+      decoded.ADS1015_ADC2 =  ((bytes[i++] << 8) | bytes[i++]);
+      decoded.ADS1015_ADC3 =  ((bytes[i++] << 8) | bytes[i++]);
+    }
+    else if (sensor === "10") { // MPU9250
+      decoded.ax = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.aY = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.aZ = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.gX = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.gY = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.gZ = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.mX = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.mY = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.mZ = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.aSqrt = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.mDirection = bytesToFloat(bytes.slice(i,i+=4));
     }
     else if (sensor === "100") { // OneWire
-      decoded.OW_01_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1);   
+      decoded.OW_01_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);   
     }
     else if (sensor === "101") { // OneWire
-      decoded.OW_02_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1);   
+      decoded.OW_02_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);   
     }
     else if (sensor === "102") { // OneWire
-      decoded.OW_03_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1);   
+      decoded.OW_03_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);   
     }
     else if (sensor === "103") { // OneWire
-      decoded.OW_04_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100).toFixed(1);   
+      decoded.OW_04_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);   
     }
   } 
-  decoded.battery = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+  decoded.battery = ((bytes[i++] << 8) | bytes[i++]);
 }
 
 return decoded;
