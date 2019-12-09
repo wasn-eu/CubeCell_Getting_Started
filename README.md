@@ -1,17 +1,17 @@
-# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png" width=150> <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/cubecell.png" width=150> Getting Started Guide
-# with LoRaWan MultiSensor Firmware
+# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150> ModularNode & IndoorNode
+# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png" width=50> <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/cubecell.png" width=50> Getting Started Guide
 # (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150>
 
 
-[Connecting the Cubell to your computer](#connecting-the-cubecell-to-your-computer)  
+[Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
 [Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
-[Use CubeCell Configurator for CubeCell configuration](#use-cubecell-configurator-for-cubecell-configuration)  
+[Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration)  
 [The Things Network decoder](#the-things-network-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
 [Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
 
 
-## Connecting the CubeCell to your Computer
+## Connecting the Indoor/ModularNode or CubeCell to your Computer
 
 - connect the USB board to the capsule  
 <p align="center">
@@ -24,7 +24,7 @@
 </p>
 - connect the micro USB of the USB board to your computer  
 
-If you have a CubeCell board just connect the micro USB to your computer
+If you have a Indoor/ModularNode or CubeCell board just connect the micro USB to your computer
 
 ## Use CubeCell Configurator to upload firmware
 
@@ -34,7 +34,7 @@ The easy way to get the Capsule up and running is:
 - Open the CubeCell Configurator
   - Select the right COM port (don't click connect)
   - Select the Flash Tab
-  - Select the CubeCell Type (board, capsule)
+  - Select the Node Type (IndoorNode, ModularNode, board, capsule)
   - Select the right frequency band (EU868, US915, AU915, AU915SB2)
   - Select RGB LED Status (on, off)
   - click Flash Firmware
@@ -77,9 +77,9 @@ These sensors are supported:
 - MPU9250
 - SHT2x
 
-OneWire Sensors are supported now on PIN GPIO1.
+OneWire Sensors are supported on the OW connector (internal GPIO1).
 
-## Use CubeCell Configurator for CubeCell configuration
+## Use CubeCell Configurator for configuration
 
 - Login to TTN and create a new device. 
   - Get your keys from TTN.
@@ -103,6 +103,11 @@ The decoder can be downloaded from here [download](https://github.com/raystream/
 
 ## Connecting a sensor
 
+If you have bought the IndoorNode ([buy](https://www.wasn.eu/p/wasn-indoor-node-mit-cjmcu-8128-sensor)) there is a BME680 sensor fitted in the case.
+
+If you have bought the ModularNode ([buy](https://www.wasn.eu/p/wasn-modular-outdoor-node)) you can connect the sensor to one of the 8 sockets 
+or the OneWire Sensors to the OW socket.
+
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule./p>
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg" width=500>  
@@ -118,7 +123,7 @@ If not here is the pinout for connecting your sensor:
 - use VS and GND to connect a solar panel (5.5 - 7V).
 
 You can connect more than one sensor to the I2C bus.  
-The only limitation is, that you can connect only 1 sensor of each modell.  
+The only limitation is, that you can connect only 1 sensor of each modell on each sensor socket.  
 These sensors are supported:
 
 - ADS1015/ADS1115
@@ -131,7 +136,7 @@ These sensors are supported:
 - HDC1080
 - SHT2x
 
-OneWire Sensors are supported now on PIN GPIO1.
+OneWire Sensors are supported on the OW connector (internal GPIO1).
 
 ## Connecting a battery to the CubeCell Capsule
 
