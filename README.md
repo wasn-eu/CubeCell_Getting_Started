@@ -1,6 +1,6 @@
 # <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150> ModularNode & IndoorNode
-# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png" width=50> <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/cubecell.png" width=50> Getting Started Guide
-# (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150>
+# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png" width=70> <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/cubecell.png" width=70> Getting Started Guide
+# (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=50>
 
 
 [Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
