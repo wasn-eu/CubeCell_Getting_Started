@@ -151,9 +151,3 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png" width=500>  
 </p>
-
-If not you have to solder a connector or the battery directly to this two solder pads:
-
-<p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery.png" width=500>
-</p>
