@@ -6947,183 +6947,183 @@ END GROUP
                                   0x8 (size before relaxing)
                 0x00019c58                __exidx_end = .
 
-.rodata         0x00019c58     0x1988
+.rodata         0x00019c58     0x1980
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00019c58       0x20 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
+ .rodata        0x00019c58       0x18 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
  .rodata.str1.1
-                0x00019c78      0x401 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
+                0x00019c70      0x401 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
                                 0x40a (size before relaxing)
  .rodata.str1.1
-                0x0001a079      0x14a C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRaWan_APP.cpp.o
+                0x0001a071      0x14a C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRaWan_APP.cpp.o
                                 0x17d (size before relaxing)
  .rodata.str1.1
-                0x0001a1c3      0x133 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\BH1750.cpp.o
- .rodata        0x0001a2f6        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\CCS811.cpp.o
- *fill*         0x0001a2fa        0x2 
- .rodata        0x0001a2fc       0x81 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BME680.cpp.o
- .rodata        0x0001a37d       0x30 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\OneWire\OneWire.cpp.o
- *fill*         0x0001a3ad        0x3 
+                0x0001a1bb      0x133 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\BH1750.cpp.o
+ .rodata        0x0001a2ee        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\CCS811.cpp.o
+ *fill*         0x0001a2f2        0x2 
+ .rodata        0x0001a2f4       0x81 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BME680.cpp.o
+ .rodata        0x0001a375       0x30 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\OneWire\OneWire.cpp.o
+ *fill*         0x0001a3a5        0x3 
  .rodata.str1.4
-                0x0001a3b0        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
+                0x0001a3a8        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_log.o)
                                   0x5 (size before relaxing)
  .rodata.str1.4
-                0x0001a3b4        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_sqrt.o)
+                0x0001a3ac        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-w_sqrt.o)
                                   0x5 (size before relaxing)
- *fill*         0x0001a3bc        0x4 
+ *fill*         0x0001a3b4        0x4 
  .rodata.atanlo
-                0x0001a3c0       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_atan.o)
+                0x0001a3b8       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_atan.o)
  .rodata.atanhi
-                0x0001a3e0       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_atan.o)
- .rodata.TWO52  0x0001a400       0x10 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
+                0x0001a3d8       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_atan.o)
+ .rodata.TWO52  0x0001a3f8       0x10 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libm.a(lib_a-s_rint.o)
  .rodata.str1.1
-                0x0001a410       0x17 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(asr_board.c.o)
- *fill*         0x0001a427        0x1 
- .rodata        0x0001a428      0x194 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(radio.c.o)
-                0x0001a42c                FskBandwidths
-                0x0001a540                Bandwidths
-                0x0001a54c                Radio
- .rodata.cst1   0x0001a5bc        0x1 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(sx126x.c.o)
- .rodata        0x0001a5bd       0x10 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMac.c.o)
- *fill*         0x0001a5cd        0x3 
- .rodata        0x0001a5d0       0x60 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(RegionAS923.c.o)
- .rodata        0x0001a630      0x300 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(aes.c.o)
+                0x0001a408       0x17 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(asr_board.c.o)
+ *fill*         0x0001a41f        0x1 
+ .rodata        0x0001a420      0x194 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(radio.c.o)
+                0x0001a424                FskBandwidths
+                0x0001a538                Bandwidths
+                0x0001a544                Radio
+ .rodata.cst1   0x0001a5b4        0x1 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(sx126x.c.o)
+ .rodata        0x0001a5b5       0x10 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMac.c.o)
+ *fill*         0x0001a5c5        0x3 
+ .rodata        0x0001a5c8       0x60 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(RegionAS923.c.o)
+ .rodata        0x0001a628      0x300 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(aes.c.o)
  .rodata.str1.1
-                0x0001a930       0x7f C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(flash_port.c.o)
+                0x0001a928       0x7f C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(flash_port.c.o)
  .rodata.str1.1
-                0x0001a9af        0x7 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(printf.c.o)
- *fill*         0x0001a9b6        0x2 
- .rodata        0x0001a9b8        0xc C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLFClk.c.o)
- .rodata        0x0001a9c4       0x17 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLib.c.o)
-                0x0001a9c4                cyImoFreqMhz2DpllOffset
- *fill*         0x0001a9db        0x1 
- .rodata        0x0001a9dc       0x28 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(HardwareSerial.cpp.o)
-                0x0001a9dc                vtable for HardwareSerial
- .rodata        0x0001aa04       0x28 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Wire.cpp.o)
-                0x0001aa04                vtable for TwoWire
+                0x0001a9a7        0x7 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(printf.c.o)
+ *fill*         0x0001a9ae        0x2 
+ .rodata        0x0001a9b0        0xc C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLFClk.c.o)
+ .rodata        0x0001a9bc       0x17 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLib.c.o)
+                0x0001a9bc                cyImoFreqMhz2DpllOffset
+ *fill*         0x0001a9d3        0x1 
+ .rodata        0x0001a9d4       0x28 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(HardwareSerial.cpp.o)
+                0x0001a9d4                vtable for HardwareSerial
+ .rodata        0x0001a9fc       0x28 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Wire.cpp.o)
+                0x0001a9fc                vtable for TwoWire
  .rodata.str1.1
-                0x0001aa2c        0xf C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Print.cpp.o)
+                0x0001aa24        0xf C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Print.cpp.o)
                                  0x14 (size before relaxing)
  .rodata.str1.1
-                0x0001aa3b       0x11 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(stdlib_noniso.c.o)
+                0x0001aa33       0x11 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(stdlib_noniso.c.o)
                                  0x19 (size before relaxing)
  .rodata._ZTSN10__cxxabiv115__forced_unwindE
-                0x0001aa4c       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
-                0x0001aa4c                typeinfo name for __cxxabiv1::__forced_unwind
+                0x0001aa44       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
+                0x0001aa44                typeinfo name for __cxxabiv1::__forced_unwind
  .rodata._ZTIN10__cxxabiv115__forced_unwindE
-                0x0001aa6c        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
-                0x0001aa6c                typeinfo for __cxxabiv1::__forced_unwind
+                0x0001aa64        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
+                0x0001aa64                typeinfo for __cxxabiv1::__forced_unwind
  .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
-                0x0001aa74       0x24 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
-                0x0001aa74                typeinfo name for __cxxabiv1::__foreign_exception
+                0x0001aa6c       0x24 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
+                0x0001aa6c                typeinfo name for __cxxabiv1::__foreign_exception
  .rodata._ZTIN10__cxxabiv119__foreign_exceptionE
-                0x0001aa98        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
-                0x0001aa98                typeinfo for __cxxabiv1::__foreign_exception
+                0x0001aa90        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(eh_exception.o)
+                0x0001aa90                typeinfo for __cxxabiv1::__foreign_exception
  .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x0001aaa0       0x2c c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(class_type_info.o)
-                0x0001aaa0                vtable for __cxxabiv1::__class_type_info
+                0x0001aa98       0x2c c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(class_type_info.o)
+                0x0001aa98                vtable for __cxxabiv1::__class_type_info
  .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x0001aacc        0xc c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(class_type_info.o)
-                0x0001aacc                typeinfo for __cxxabiv1::__class_type_info
+                0x0001aac4        0xc c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(class_type_info.o)
+                0x0001aac4                typeinfo for __cxxabiv1::__class_type_info
  .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x0001aad8       0x22 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(class_type_info.o)
-                0x0001aad8                typeinfo name for __cxxabiv1::__class_type_info
- *fill*         0x0001aafa        0x2 
+                0x0001aad0       0x22 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(class_type_info.o)
+                0x0001aad0                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x0001aaf2        0x2 
  .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x0001aafc       0x2c c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(si_class_type_info.o)
-                0x0001aafc                vtable for __cxxabiv1::__si_class_type_info
+                0x0001aaf4       0x2c c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(si_class_type_info.o)
+                0x0001aaf4                vtable for __cxxabiv1::__si_class_type_info
  .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x0001ab28        0xc c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(si_class_type_info.o)
-                0x0001ab28                typeinfo for __cxxabiv1::__si_class_type_info
+                0x0001ab20        0xc c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(si_class_type_info.o)
+                0x0001ab20                typeinfo for __cxxabiv1::__si_class_type_info
  .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x0001ab34       0x25 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(si_class_type_info.o)
-                0x0001ab34                typeinfo name for __cxxabiv1::__si_class_type_info
- *fill*         0x0001ab59        0x3 
+                0x0001ab2c       0x25 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(si_class_type_info.o)
+                0x0001ab2c                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x0001ab51        0x3 
  .rodata._ZTISt9type_info
-                0x0001ab5c        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(tinfo.o)
-                0x0001ab5c                typeinfo for std::type_info
+                0x0001ab54        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(tinfo.o)
+                0x0001ab54                typeinfo for std::type_info
  .rodata._ZTSSt9type_info
-                0x0001ab64        0xd c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(tinfo.o)
-                0x0001ab64                typeinfo name for std::type_info
+                0x0001ab5c        0xd c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libstdc++_nano.a(tinfo.o)
+                0x0001ab5c                typeinfo name for std::type_info
  .rodata.str1.1
-                0x0001ab71       0x70 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(LoRaMacClassB.o)
+                0x0001ab69       0x70 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(LoRaMacClassB.o)
  .rodata.str1.1
-                0x0001abe1      0x7ce C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(AT_Command.o)
+                0x0001abd9      0x7ce C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(AT_Command.o)
                                 0x7e4 (size before relaxing)
- *fill*         0x0001b3af        0x1 
- .rodata        0x0001b3b0       0x80 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divsf3.o)
- .rodata        0x0001b430       0x40 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(mulsf3.o)
- .rodata        0x0001b470       0x40 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
- .rodata        0x0001b4b0       0x40 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
+ *fill*         0x0001b3a7        0x1 
+ .rodata        0x0001b3a8       0x80 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divsf3.o)
+ .rodata        0x0001b428       0x40 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(mulsf3.o)
+ .rodata        0x0001b468       0x40 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(divdf3.o)
+ .rodata        0x0001b4a8       0x40 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a(muldf3.o)
  .rodata.str1.1
-                0x0001b4f0        0x2 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
+                0x0001b4e8        0x2 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-impure.o)
  .rodata.str1.1
-                0x0001b4f0       0x25 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-utoa.o)
+                0x0001b4e8       0x25 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-utoa.o)
  .rodata.str1.1
-                0x0001b515       0x11 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x0001b50d       0x11 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
-                0x0001b526       0x11 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0001b51e       0x11 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-nano-vfprintf_i.o)
                                  0x22 (size before relaxing)
- *fill*         0x0001b537        0x1 
+ *fill*         0x0001b52f        0x1 
  .rodata.__sf_fake_stdin
-                0x0001b538       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x0001b538                __sf_fake_stdin
+                0x0001b530       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x0001b530                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0001b558       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x0001b558                __sf_fake_stdout
+                0x0001b550       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x0001b550                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x0001b578       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
-                0x0001b578                __sf_fake_stderr
-                0x0001b598                . = ALIGN (0x4)
+                0x0001b570       0x20 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-findfp.o)
+                0x0001b570                __sf_fake_stderr
+                0x0001b590                . = ALIGN (0x4)
  *(.init)
- .init          0x0001b598        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
-                0x0001b598                _init
- .init          0x0001b59c        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
-                0x0001b5a4                . = ALIGN (0x4)
-                0x0001b5a4                __preinit_array_start = .
+ .init          0x0001b590        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x0001b590                _init
+ .init          0x0001b594        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x0001b59c                . = ALIGN (0x4)
+                0x0001b59c                __preinit_array_start = .
  *(.preinit_array)
-                0x0001b5a4                __preinit_array_end = .
-                0x0001b5a4                . = ALIGN (0x4)
-                0x0001b5a4                __init_array_start = .
+                0x0001b59c                __preinit_array_end = .
+                0x0001b59c                . = ALIGN (0x4)
+                0x0001b59c                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x0001b5a4        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
- .init_array    0x0001b5a8        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
- .init_array    0x0001b5ac        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRaWan_APP.cpp.o
- .init_array    0x0001b5b0        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Cm0plusStart.c.o)
- .init_array    0x0001b5b4        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI.cpp.o)
- .init_array    0x0001b5b8        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(HardwareSerial.cpp.o)
- .init_array    0x0001b5bc        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Wire.cpp.o)
-                0x0001b5c0                __init_array_end = .
-                0x0001b5c0                . = ALIGN (0x4)
+ .init_array    0x0001b59c        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .init_array    0x0001b5a0        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
+ .init_array    0x0001b5a4        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRaWan_APP.cpp.o
+ .init_array    0x0001b5a8        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Cm0plusStart.c.o)
+ .init_array    0x0001b5ac        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI.cpp.o)
+ .init_array    0x0001b5b0        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(HardwareSerial.cpp.o)
+ .init_array    0x0001b5b4        0x4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Wire.cpp.o)
+                0x0001b5b8                __init_array_end = .
+                0x0001b5b8                . = ALIGN (0x4)
  *(.fini)
- .fini          0x0001b5c0        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
-                0x0001b5c0                _fini
- .fini          0x0001b5c4        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
-                0x0001b5cc                . = ALIGN (0x4)
-                0x0001b5cc                __fini_array_start = .
+ .fini          0x0001b5b8        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crti.o
+                0x0001b5b8                _fini
+ .fini          0x0001b5bc        0x8 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtn.o
+                0x0001b5c4                . = ALIGN (0x4)
+                0x0001b5c4                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x0001b5cc        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
+ .fini_array    0x0001b5c4        0x4 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
  *(SORT(.fini_array.*))
-                0x0001b5d0                __fini_array_end = .
-                0x0001b5d0                . = ALIGN (0x4)
+                0x0001b5c8                __fini_array_end = .
+                0x0001b5c8                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x0001b5d0                . = ALIGN (0x4)
+                0x0001b5c8                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x0001b5d0                . = ALIGN (0x4)
-                0x0001b5d0                __cy_regions = .
-                0x0001b5d0        0x4 LONG 0x1b5e0 __cy_region_init_ram
-                0x0001b5d4        0x4 LONG 0x200000b8 __cy_region_start_data
-                0x0001b5d8        0x4 LONG 0x2a0 __cy_region_init_size_ram
-                0x0001b5dc        0x4 LONG 0x1430 __cy_region_zero_size_ram
-                0x0001b5e0                __cy_regions_end = .
-                0x0001b5e0                . = ALIGN (0x8)
-                0x0001b5e0                _etext = .
+                0x0001b5c8                . = ALIGN (0x4)
+                0x0001b5c8                __cy_regions = .
+                0x0001b5c8        0x4 LONG 0x1b5d8 __cy_region_init_ram
+                0x0001b5cc        0x4 LONG 0x200000b8 __cy_region_start_data
+                0x0001b5d0        0x4 LONG 0x2a0 __cy_region_init_size_ram
+                0x0001b5d4        0x4 LONG 0x1430 __cy_region_zero_size_ram
+                0x0001b5d8                __cy_regions_end = .
+                0x0001b5d8                . = ALIGN (0x8)
+                0x0001b5d8                _etext = .
 
 .ramvectors     0x20000000       0xb0
                 0x20000000                __cy_region_start_ram = .
@@ -7140,7 +7140,7 @@ END GROUP
 .noinit
  *(.noinit)
 
-.data           0x200000b8      0x2a0 load address 0x0001b5e0
+.data           0x200000b8      0x2a0 load address 0x0001b5d8
                 0x200000b8                __cy_region_start_data = .
  *(.jcr)
  .jcr           0x200000b8        0x0 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
@@ -7238,10 +7238,10 @@ END GROUP
  *(.ram)
                 0x20000358                _edata = .
 
-.igot.plt       0x20000358        0x0 load address 0x0001b880
+.igot.plt       0x20000358        0x0 load address 0x0001b878
  .igot.plt      0x20000358        0x0 c:/users/raystream/appdata/local/arduino15/packages/cubecell/hardware/cubecell/0.0.4/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m/crtbegin.o
 
-.bss            0x20000358     0x1430 load address 0x0001b880
+.bss            0x20000358     0x1430 load address 0x0001b878
                 0x20000358                PROVIDE (__bss_start__, .)
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
@@ -7425,11 +7425,11 @@ END GROUP
                 0x20001788                __end = .
                 0x20001788                PROVIDE (end, .)
                 0x20001788                PROVIDE (__bss_end__, .)
-                0x0001b5e0                __cy_region_init_ram = LOADADDR (.data)
+                0x0001b5d8                __cy_region_init_ram = LOADADDR (.data)
                 0x000002a0                __cy_region_init_size_ram = (_edata - ADDR (.data))
                 0x00001430                __cy_region_zero_size_ram = (_end - _edata)
 
-.heap           0x20001788     0x1000 load address 0x0001b880
+.heap           0x20001788     0x1000 load address 0x0001b878
                 0x20001788                . = _end
                 0x20002788                . = (. + 0x1000)
  *fill*         0x20001788     0x1000 
@@ -7696,95 +7696,95 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x4dead
+.debug_info     0x00000000    0x4deb0
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x6eb4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
- .debug_info    0x00006eb4     0x2ebe C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRaWan_APP.cpp.o
- .debug_info    0x00009d72      0xc0d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRa_APP.cpp.o
- .debug_info    0x0000a97f      0x7b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\BH1750.cpp.o
- .debug_info    0x0000b132      0xc51 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\BMP180.cpp.o
- .debug_info    0x0000bd83     0x1257 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\CCS811.cpp.o
- .debug_info    0x0000cfda     0x1fbb C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\HDC1080.cpp.o
- .debug_info    0x0000ef95     0x1349 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\MPU9250.cpp.o
- .debug_info    0x000102de      0x97e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\ADS1015.cpp.o
- .debug_info    0x00010c5c      0xf57 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BME280.cpp.o
- .debug_info    0x00011bb3     0x1aef C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BME680.cpp.o
- .debug_info    0x000136a2     0x1523 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BMP280.cpp.o
- .debug_info    0x00014bc5      0x742 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\SHT2x.cpp.o
- .debug_info    0x00015307     0x10f6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\OneWire\OneWire.cpp.o
- .debug_info    0x000163fd     0x108e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\RGB\Adafruit_NeoPixel.cpp.o
- .debug_info    0x0001748b     0x1dac C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(asr_board.c.o)
- .debug_info    0x00019237      0x612 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(gpio.c.o)
- .debug_info    0x00019849      0x57d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(spi-board.c.o)
- .debug_info    0x00019dc6     0x2a62 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(radio.c.o)
- .debug_info    0x0001c828     0x2128 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(sx126x.c.o)
- .debug_info    0x0001e950     0x571d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMac.c.o)
- .debug_info    0x0002406d      0xb87 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMacConfirmQueue.c.o)
- .debug_info    0x00024bf4      0xa0d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMacCrypto.c.o)
- .debug_info    0x00025601     0x1824 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Region.c.o)
- .debug_info    0x00026e25     0x26e8 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(RegionAS923.c.o)
- .debug_info    0x0002950d      0xfb1 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(RegionCommon.c.o)
- .debug_info    0x0002a4be      0x64f C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(aes.c.o)
- .debug_info    0x0002ab0d      0x544 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cmac.c.o)
- .debug_info    0x0002b051      0x35b C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(delay.c.o)
- .debug_info    0x0002b3ac      0x630 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(low_power.c.o)
- .debug_info    0x0002b9dc      0x29c C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(utilities.c.o)
- .debug_info    0x0002bc78      0x826 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(flash_port.c.o)
- .debug_info    0x0002c49e      0xfd2 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(printf.c.o)
- .debug_info    0x0002d470      0x1b0 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Bootloadable_1.c.o)
- .debug_info    0x0002d620      0x3fd C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Cm0plusStart.c.o)
- .debug_info    0x0002da1d      0x441 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyFlash.c.o)
- .debug_info    0x0002de5e      0xecb C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLFClk.c.o)
- .debug_info    0x0002ed29     0x18f0 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLib.c.o)
- .debug_info    0x00030619      0x276 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1.c.o)
- .debug_info    0x0003088f      0x1ba C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_SPI.c.o)
- .debug_info    0x00030a49      0x249 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_SPI_UART.c.o)
- .debug_info    0x00030c92      0x1b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_sclk_m.c.o)
- .debug_info    0x00030e45      0x249 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_SPI_UART.c.o)
- .debug_info    0x0003108e      0x144 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cybootloader.c.o)
- .debug_info    0x000311d2       0xa9 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cymetadata.c.o)
- .debug_info    0x0003127b      0x7cc C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI.cpp.o)
- .debug_info    0x00031a47     0x1fec C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(HardwareSerial.cpp.o)
- .debug_info    0x00033a33     0x2a0c C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Wire.cpp.o)
- .debug_info    0x0003643f     0x28f4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Print.cpp.o)
- .debug_info    0x00038d33     0x1913 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Stream.cpp.o)
- .debug_info    0x0003a646     0x3841 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(WString.cpp.o)
- .debug_info    0x0003de87      0x121 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(main.cpp.o)
- .debug_info    0x0003dfa8       0xe5 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(port_s.S.o)
- .debug_info    0x0003e08d       0xf5 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyBootAsmGnu.S.o)
- .debug_info    0x0003e182      0x1cf C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(board.c.o)
- .debug_info    0x0003e351      0x77d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(gpio-board.c.o)
- .debug_info    0x0003eace      0x8b2 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(I2C_I2C_MASTER.c.o)
- .debug_info    0x0003f380      0x369 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(stdlib_noniso.c.o)
- .debug_info    0x0003f6e9      0x338 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(aos_port.c.o)
- .debug_info    0x0003fa21      0x352 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1.c.o)
- .debug_info    0x0003fd73      0x390 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_SCB_IRQ.c.o)
- .debug_info    0x00040103      0x589 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_UART.c.o)
- .debug_info    0x0004068c      0x1b8 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_rx_wake.c.o)
- .debug_info    0x00040844      0x1ae C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(I2C_I2C.c.o)
- .debug_info    0x000409f2      0x1c6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(I2C_I2C_INT.c.o)
- .debug_info    0x00040bb8       0xc6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_SPI_UART_INT.c.o)
- .debug_info    0x00040c7e      0x298 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(asr_NeoPixel.o)
- .debug_info    0x00040f16      0x5f0 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(asr_timer.o)
- .debug_info    0x00041506      0x274 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(cyfitter_cfg.o)
- .debug_info    0x0004177a      0x5ac C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(I2C.o)
- .debug_info    0x00041d26     0x2de4 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(LoRaMacClassB.o)
- .debug_info    0x00044b0a      0xdf7 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(lorawan_port.o)
- .debug_info    0x00045901      0x7f0 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(timeServer.o)
- .debug_info    0x000460f1      0xe57 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(ASR_Arduino.o)
- .debug_info    0x00046f48     0x39e5 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(AT_Command.o)
- .debug_info    0x0004a92d      0x7a3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(ADC_SAR_Seq.c.o)
- .debug_info    0x0004b0d0       0xcf C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(ADC_SAR_Seq_INT.c.o)
- .debug_info    0x0004b19f      0xbf6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(PWM1.c.o)
- .debug_info    0x0004bd95      0xbf6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(PWM2.c.o)
- .debug_info    0x0004c98b      0x390 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(irq.c.o)
- .debug_info    0x0004cd1b      0x86e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(uart_port.c.o)
- .debug_info    0x0004d589      0x14e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_PM.c.o)
- .debug_info    0x0004d6d7      0x1b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_miso_m.c.o)
- .debug_info    0x0004d88a      0x1b8 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_mosi_m.c.o)
- .debug_info    0x0004da42       0xf1 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_PM.c.o)
- .debug_info    0x0004db33      0x1b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_tx.c.o)
- .debug_info    0x0004dce6      0x1c7 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cyPm.c.o)
+ .debug_info    0x00000000     0x6eb7 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\sketch\capsule_multisensor.ino.cpp.o
+ .debug_info    0x00006eb7     0x2ebe C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRaWan_APP.cpp.o
+ .debug_info    0x00009d75      0xc0d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\LoRa\LoRa_APP.cpp.o
+ .debug_info    0x0000a982      0x7b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\BH1750.cpp.o
+ .debug_info    0x0000b135      0xc51 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\BMP180.cpp.o
+ .debug_info    0x0000bd86     0x1257 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\CCS811.cpp.o
+ .debug_info    0x0000cfdd     0x1fbb C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\HDC1080.cpp.o
+ .debug_info    0x0000ef98     0x1349 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\SensorBasic\MPU9250.cpp.o
+ .debug_info    0x000102e1      0x97e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\ADS1015.cpp.o
+ .debug_info    0x00010c5f      0xf57 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BME280.cpp.o
+ .debug_info    0x00011bb6     0x1aef C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BME680.cpp.o
+ .debug_info    0x000136a5     0x1523 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\BMP280.cpp.o
+ .debug_info    0x00014bc8      0x742 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\Sensor_ThirdParty\SHT2x.cpp.o
+ .debug_info    0x0001530a     0x10f6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\OneWire\OneWire.cpp.o
+ .debug_info    0x00016400     0x108e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build\libraries\RGB\Adafruit_NeoPixel.cpp.o
+ .debug_info    0x0001748e     0x1dac C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(asr_board.c.o)
+ .debug_info    0x0001923a      0x612 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(gpio.c.o)
+ .debug_info    0x0001984c      0x57d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(spi-board.c.o)
+ .debug_info    0x00019dc9     0x2a62 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(radio.c.o)
+ .debug_info    0x0001c82b     0x2128 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(sx126x.c.o)
+ .debug_info    0x0001e953     0x571d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMac.c.o)
+ .debug_info    0x00024070      0xb87 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMacConfirmQueue.c.o)
+ .debug_info    0x00024bf7      0xa0d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(LoRaMacCrypto.c.o)
+ .debug_info    0x00025604     0x1824 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Region.c.o)
+ .debug_info    0x00026e28     0x26e8 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(RegionAS923.c.o)
+ .debug_info    0x00029510      0xfb1 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(RegionCommon.c.o)
+ .debug_info    0x0002a4c1      0x64f C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(aes.c.o)
+ .debug_info    0x0002ab10      0x544 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cmac.c.o)
+ .debug_info    0x0002b054      0x35b C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(delay.c.o)
+ .debug_info    0x0002b3af      0x630 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(low_power.c.o)
+ .debug_info    0x0002b9df      0x29c C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(utilities.c.o)
+ .debug_info    0x0002bc7b      0x826 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(flash_port.c.o)
+ .debug_info    0x0002c4a1      0xfd2 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(printf.c.o)
+ .debug_info    0x0002d473      0x1b0 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Bootloadable_1.c.o)
+ .debug_info    0x0002d623      0x3fd C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Cm0plusStart.c.o)
+ .debug_info    0x0002da20      0x441 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyFlash.c.o)
+ .debug_info    0x0002de61      0xecb C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLFClk.c.o)
+ .debug_info    0x0002ed2c     0x18f0 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyLib.c.o)
+ .debug_info    0x0003061c      0x276 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1.c.o)
+ .debug_info    0x00030892      0x1ba C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_SPI.c.o)
+ .debug_info    0x00030a4c      0x249 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_SPI_UART.c.o)
+ .debug_info    0x00030c95      0x1b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_sclk_m.c.o)
+ .debug_info    0x00030e48      0x249 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_SPI_UART.c.o)
+ .debug_info    0x00031091      0x144 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cybootloader.c.o)
+ .debug_info    0x000311d5       0xa9 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cymetadata.c.o)
+ .debug_info    0x0003127e      0x7cc C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI.cpp.o)
+ .debug_info    0x00031a4a     0x1fec C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(HardwareSerial.cpp.o)
+ .debug_info    0x00033a36     0x2a0c C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Wire.cpp.o)
+ .debug_info    0x00036442     0x28f4 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Print.cpp.o)
+ .debug_info    0x00038d36     0x1913 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(Stream.cpp.o)
+ .debug_info    0x0003a649     0x3841 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(WString.cpp.o)
+ .debug_info    0x0003de8a      0x121 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(main.cpp.o)
+ .debug_info    0x0003dfab       0xe5 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(port_s.S.o)
+ .debug_info    0x0003e090       0xf5 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(CyBootAsmGnu.S.o)
+ .debug_info    0x0003e185      0x1cf C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(board.c.o)
+ .debug_info    0x0003e354      0x77d C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(gpio-board.c.o)
+ .debug_info    0x0003ead1      0x8b2 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(I2C_I2C_MASTER.c.o)
+ .debug_info    0x0003f383      0x369 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(stdlib_noniso.c.o)
+ .debug_info    0x0003f6ec      0x338 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(aos_port.c.o)
+ .debug_info    0x0003fa24      0x352 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1.c.o)
+ .debug_info    0x0003fd76      0x390 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_SCB_IRQ.c.o)
+ .debug_info    0x00040106      0x589 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_UART.c.o)
+ .debug_info    0x0004068f      0x1b8 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_rx_wake.c.o)
+ .debug_info    0x00040847      0x1ae C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(I2C_I2C.c.o)
+ .debug_info    0x000409f5      0x1c6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(I2C_I2C_INT.c.o)
+ .debug_info    0x00040bbb       0xc6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_SPI_UART_INT.c.o)
+ .debug_info    0x00040c81      0x298 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(asr_NeoPixel.o)
+ .debug_info    0x00040f19      0x5f0 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(asr_timer.o)
+ .debug_info    0x00041509      0x274 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(cyfitter_cfg.o)
+ .debug_info    0x0004177d      0x5ac C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(I2C.o)
+ .debug_info    0x00041d29     0x2de4 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(LoRaMacClassB.o)
+ .debug_info    0x00044b0d      0xdf7 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(lorawan_port.o)
+ .debug_info    0x00045904      0x7f0 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(timeServer.o)
+ .debug_info    0x000460f4      0xe57 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(ASR_Arduino.o)
+ .debug_info    0x00046f4b     0x39e5 C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/projects/CubeCellLib.a(AT_Command.o)
+ .debug_info    0x0004a930      0x7a3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(ADC_SAR_Seq.c.o)
+ .debug_info    0x0004b0d3       0xcf C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(ADC_SAR_Seq_INT.c.o)
+ .debug_info    0x0004b1a2      0xbf6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(PWM1.c.o)
+ .debug_info    0x0004bd98      0xbf6 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(PWM2.c.o)
+ .debug_info    0x0004c98e      0x390 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(irq.c.o)
+ .debug_info    0x0004cd1e      0x86e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(uart_port.c.o)
+ .debug_info    0x0004d58c      0x14e C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_PM.c.o)
+ .debug_info    0x0004d6da      0x1b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_miso_m.c.o)
+ .debug_info    0x0004d88d      0x1b8 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(SPI_1_mosi_m.c.o)
+ .debug_info    0x0004da45       0xf1 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_PM.c.o)
+ .debug_info    0x0004db36      0x1b3 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(UART_1_tx.c.o)
+ .debug_info    0x0004dce9      0x1c7 C:\Users\raystream\Documents\#Development\LoRa\CubeCell\CubeCell_Getting_Started\Firmware\.build/..\..\..\..\..\..\..\..\RAYSTR~1\AppData\Local\Temp\arduino-core-cache\core_CubeCell_CubeCell_CubeCell-Board_a8425ed3ea10bedcac297a95e51095e9.a(cyPm.c.o)
 
 .debug_abbrev   0x00000000     0xcb6d
  *(.debug_abbrev)
