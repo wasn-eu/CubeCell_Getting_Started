@@ -2,7 +2,7 @@
   "additionalFiles": "..\\..\\..,..\\..\\..",
   "builtInLibrariesFolders": "C:\\Program Files (x86)\\Arduino\\libraries",
   "builtInToolsFolders": "",
-  "customBuildProperties": "build.band=REGION_AU915,build.RGB=0,build.warn_data_percentage=75",
+  "customBuildProperties": "build.band=REGION_US915,build.RGB=0,build.warn_data_percentage=75",
   "fqbn": "CubeCell:CubeCell:CubeCell-Board",
   "hardwareFolders": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages",
   "otherLibrariesFolders": "C:\\Users\\raystream\\Documents\\libraries",

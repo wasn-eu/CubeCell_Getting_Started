@@ -242,7 +242,7 @@ bool
 # 151 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
                                  ;
 /*LoraWan REGION*/
-LoRaMacRegion_t REGION = LORAMAC_REGION_AU915;
+LoRaMacRegion_t REGION = LORAMAC_REGION_US915;
 
 /* Indicates if the node is sending confirmed or unconfirmed messages */
 
