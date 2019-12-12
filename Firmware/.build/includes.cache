@@ -31,11 +31,6 @@
   },
   {
     "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\LoRa\\src\\LoRaWan_APP.cpp",
-    "Include": "Adafruit_NeoPixel.h",
-    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\RGB\\src"
-  },
-  {
-    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\LoRa\\src\\LoRaWan_APP.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -96,11 +91,6 @@
   },
   {
     "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\OneWire\\OneWire.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\RGB\\src\\Adafruit_NeoPixel.cpp",
     "Include": "",
     "Includepath": null
   }

@@ -102,6 +102,4 @@ C:\Users\raystream\Documents\\#Development\LoRa\CubeCell\CubeCell_Getting_Starte
  C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/cores/Print.h \
  C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/cores/WString.h \
  C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/cores/pgmspace.h \
- C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/cores/Printable.h \
- C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4\libraries\RGB\src/Adafruit_NeoPixel.h \
- C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4\cores\asr650x/Arduino.h
+ C:\Users\raystream\AppData\Local\Arduino15\packages\CubeCell\hardware\CubeCell\0.0.4/cores/asr650x/cores/Printable.h
