@@ -1,0 +1,107 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\cores\\asr650x"
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\CubeCell_Getting_Started\\Firmware\\.build\\sketch\\capsule_multisensor.ino.cpp",
+    "Include": "LoRaWan_APP.h",
+    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\LoRa\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\CubeCell_Getting_Started\\Firmware\\.build\\sketch\\capsule_multisensor.ino.cpp",
+    "Include": "BH1750.h",
+    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\SensorBasic\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\CubeCell_Getting_Started\\Firmware\\.build\\sketch\\capsule_multisensor.ino.cpp",
+    "Include": "BMP280.h",
+    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\Sensor_ThirdParty\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\CubeCell_Getting_Started\\Firmware\\.build\\sketch\\capsule_multisensor.ino.cpp",
+    "Include": "OneWire.h",
+    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\OneWire"
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\CubeCell_Getting_Started\\Firmware\\.build\\sketch\\capsule_multisensor.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\LoRa\\src\\LoRaWan_APP.cpp",
+    "Include": "Adafruit_NeoPixel.h",
+    "Includepath": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\RGB\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\LoRa\\src\\LoRaWan_APP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\LoRa\\src\\LoRa_APP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\SensorBasic\\src\\BH1750.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\SensorBasic\\src\\BMP180.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\SensorBasic\\src\\CCS811.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\SensorBasic\\src\\HDC1080.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\SensorBasic\\src\\MPU9250.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\Sensor_ThirdParty\\src\\ADS1015.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\Sensor_ThirdParty\\src\\BME280.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\Sensor_ThirdParty\\src\\BME680.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\Sensor_ThirdParty\\src\\BMP280.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\Sensor_ThirdParty\\src\\SHT2x.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\OneWire\\OneWire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\raystream\\AppData\\Local\\Arduino15\\packages\\CubeCell\\hardware\\CubeCell\\0.0.4\\libraries\\RGB\\src\\Adafruit_NeoPixel.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
