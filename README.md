@@ -34,8 +34,8 @@ The easy way to get the Capsule up and running is:
 - Open the CubeCell Configurator
   - Select the right COM port (don't click connect)
   - Select the Flash Tab
-  - Select the Node Type (IndoorNode, ModularNode, board, capsule)
-  - Select the right frequency band (EU868, US915, AU915, AU915SB2)
+  - Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
+  - Select the right frequency band (EU868, US915, AU915)
   - Select RGB LED Status (on, off)
   - click Flash Firmware
     - Firmware is now downloaded from github.
