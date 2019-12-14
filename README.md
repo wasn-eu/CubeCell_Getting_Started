@@ -77,7 +77,7 @@ The firmware has the following config:
 
 The firmware auto detects the connected I2C sensor.  
 You can connect more than one sensor to the I2C bus.  
-The only limitation is, that you can connect only 1 sensor of each modell.  
+The only limitation is, that you can connect only 1 sensor of each modell on each sensor socket.  
 These sensors are supported:
 
 - ADS1015/ADS1115
