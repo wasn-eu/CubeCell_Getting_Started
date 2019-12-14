@@ -48,14 +48,15 @@ The easy way to get the Capsule up and running is:
       	- The firmware will be written to the capsule 
       		- The debug text box shows the state of the firmware download and flash.
 		- If an error happens this will be in the debug text box too.
-  
-        Downloading Firmware …
-        Downloadind Firmware done
-        Flashing Firmware …
-        PROCESS PERCENTAGE
-        Flashing Firmware done
-        CleanUp Starting
-        CleanUp done
+        
+              Downloading Firmware …
+              Downloading Firmware done
+              Flashing Firmware …
+              PROCESS PERCENTAGE
+              Flashing Firmware done
+              CleanUp Starting
+              CleanUp done
+        
 
 The firmware has the following config:
 
