@@ -105,7 +105,7 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
 
   - Select your COM Port and click connect.
   - Select the Config Tab
-  - Keys and DutyCycle are read from the CubeCell device.
+  - Device EUI, Application EUI, App Key and DutyCycle are read from the CubeCell device.
   - copy the keys: Device EUI, Application EUI and App Key
     - Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
   - Click on Write.
