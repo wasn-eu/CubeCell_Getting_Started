@@ -32,6 +32,9 @@ The easy way to get the Capsule up and running is:
 
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
 - Open the CubeCell Configurator
+<p align="center">
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
+</p>
   - Select the right COM port (don't click connect)
   - Select the Flash Tab
   - Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
@@ -40,10 +43,16 @@ The easy way to get the Capsule up and running is:
   - click Flash Firmware
     - Firmware is now downloaded from github.
     - The firmware will be written to the capsule
-
+  - switch to the debug tab you should see:
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
 </p>
+    - Downloading Firmware …
+    - Downloadind Firmware done
+    - Flashing Firmware …
+    - Flashing Firmware done
+    - CleanUp Starting
+    - CleanUp done
 
 The firmware has the following config:
 
@@ -81,24 +90,37 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
 
 ## Use CubeCell Configurator for configuration
 
-- Login to TTN and create a new device. 
-  - Get your keys from TTN.
+- Login to TTN and create an application if you haven’t already. 
+- Under your application create a device for the CubeCell device you are setting up
 - Open the CubeCell Configurator
-  - Select your COM Port and click connect.
-  - Select the Config Tab
-  - Keys and DutyCycle are read from the CubeCell device.
-  - Type in your Keys and DutyCycle.
-  - Click on Write.
 
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
 </p>
 
-Now the keys are saved and the CubeCell device will reboot.
+  - Select your COM Port and click connect.
+  - Select the Config Tab
+  - Keys and DutyCycle are read from the CubeCell device.
+  - copy the keys: Device EUI, Application EUI and App Key
+    - Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
+  - Click on Write.
+  - The keys will be saved in the CubeCell device and the device will reboot
+  - If you switch  to the debug tap you should see the following:
+<p align="center">
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
+</p>
+    - AT+DevEui=YOURDEVEUI
+    - AT+AppEui=YOURAPPEUI
+    - AT+AppKey=YOURAPPKEY
+    - AT+DutyCycle=YOURDUTYCYCLEINMS
+    - AT+RESET=1
+  - Now you should see the Join Requests in your TTN Application and short after that data comming in.
+
 
 ## The Things Network decoder
 
-Login to TTN and define the decoder.  
+Login to TTN and go to your application you have previously devined the device in
+Now you can define the decoder for this application.  
 The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
 ## Connecting a sensor
