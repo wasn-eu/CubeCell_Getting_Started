@@ -40,13 +40,13 @@ The easy way to get the Capsule up and running is:
 
   - Select the right COM port (don't click connect)
   - Select the Flash Tab
-  - Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
-  - Select the right frequency band (EU868, US915, AU915)
-  -  Select RGB LED Status (on, off)
-  - click Flash Firmware
-      - Firmware is now downloaded from github.
-      - The firmware will be written to the capsule 
-      	- a new window will open and show the state of the firmware transfer
+  	- Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
+  	- Select the right frequency band (EU868, US915, AU915)
+  	-  Select RGB LED Status (on, off)
+  	- click Flash Firmware
+      	- Firmware is now downloaded from github.
+      	- The firmware will be written to the capsule 
+      		- a new window will open and show the state of the firmware transfer
   - switch to the debug tab you should see:
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
@@ -105,10 +105,10 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
 
   - Select your COM Port and click connect.
   - Select the Config Tab
-  - Device EUI, Application EUI, App Key and DutyCycle are read from the CubeCell device.
-  - copy the keys: Device EUI, Application EUI and App Key
-    - Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
-  - Click on Write.
+  	- Device EUI, Application EUI, App Key and DutyCycle are read from the CubeCell device.
+  	- copy the keys: Device EUI, Application EUI and App Key
+    	- Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
+  	- Click on Write.
   - The keys will be saved in the CubeCell device and the device will reboot
   - If you switch  to the debug tap you should see the following:
 <p align="center">
