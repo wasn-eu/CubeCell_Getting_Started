@@ -119,6 +119,11 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
 	AT+AppKey=YOURAPPKEY
 	AT+DutyCycle=YOURDUTYCYCLEINMS
 	AT+RESET=1
+	...
+	...
+	joining...
+	joined
+	
   - Now you should see the Join Requests in your TTN Application and short after that data comming in.
 
 
@@ -164,6 +169,19 @@ These sensors are supported:
 - SHT2x
 
 OneWire Sensors are supported on the OW connector (internal GPIO1).
+
+You can check which sensor the CubeCell device has found:
+
+- Open the CubeCell Configurator
+
+<p align="center">
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
+</p>
+
+  - Select your COM Port and click connect.
+  - Select the Debug Tab
+   - Press the Reset (RST) button on you CubeCell device.
+   - you should see a message with the name of your Sensor (for example "BME680 found")
 
 ## Connecting a battery to the CubeCell Capsule
 
