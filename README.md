@@ -48,12 +48,13 @@ The easy way to get the Capsule up and running is:
       	- The firmware will be written to the capsule 
       		- The debug text box shows the state of the firmware download and flash
   
-    Downloading Firmware …
-    Downloadind Firmware done
-    Flashing Firmware …
-    Flashing Firmware done
-    CleanUp Starting
-    CleanUp done
+        Downloading Firmware …
+        Downloadind Firmware done
+        Flashing Firmware …
+        PROCESS PERCENTAGE
+        Flashing Firmware done
+        CleanUp Starting
+        CleanUp done
 
 The firmware has the following config:
 
@@ -108,15 +109,15 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
   - The keys will be saved in the CubeCell device and the device will reboot
   - In the debug text box you should see the following:
 
-	AT+DevEui=YOURDEVEUI
-	AT+AppEui=YOURAPPEUI
-	AT+AppKey=YOURAPPKEY
-	AT+DutyCycle=YOURDUTYCYCLEINMS
-	AT+RESET=1
-	...
-	...
-	joining...
-	joined
+        AT+DevEui=YOURDEVEUI
+        AT+AppEui=YOURAPPEUI
+        AT+AppKey=YOURAPPKEY
+        AT+DutyCycle=YOURDUTYCYCLEINMS
+        AT+RESET=1
+        ...
+        ...
+        joining...
+        joined
 	
   - Now you should see the Join Requests in your TTN Application and short after that data comming in.
 
