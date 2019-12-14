@@ -46,12 +46,8 @@ The easy way to get the Capsule up and running is:
   	- click Flash Firmware
       	- Firmware is now downloaded from github.
       	- The firmware will be written to the capsule 
-      		- a new window will open and show the state of the firmware transfer
-  - switch to the debug tab you should see:
-<p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
-</p>
-
+      		- The debug text box shows the state of the firmware download and flash
+  
     Downloading Firmware …
     Downloadind Firmware done
     Flashing Firmware …
@@ -110,10 +106,7 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
     	- Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
   	- Click on Write.
   - The keys will be saved in the CubeCell device and the device will reboot
-  - If you switch  to the debug tap you should see the following:
-<p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
-</p>
+  - In the debug text box you should see the following:
 
 	AT+DevEui=YOURDEVEUI
 	AT+AppEui=YOURAPPEUI
@@ -176,11 +169,10 @@ You can check which sensor the CubeCell device has found:
 - Open the CubeCell Configurator
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
 </p>
 
   - Select your COM Port and click connect.
-  - Select the Debug Tab
    - Press the Reset (RST) button on you CubeCell device.
    - you should see a message with the address and the name of your sensor
    
