@@ -46,7 +46,8 @@ The easy way to get the Capsule up and running is:
   	- click Flash Firmware
       	- Firmware is now downloaded from github.
       	- The firmware will be written to the capsule 
-      		- The debug text box shows the state of the firmware download and flash
+      		- The debug text box shows the state of the firmware download and flash.
+		- If an error happens this will be in the debug text box too.
   
         Downloading Firmware …
         Downloadind Firmware done
