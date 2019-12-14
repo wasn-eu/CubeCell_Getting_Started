@@ -182,7 +182,11 @@ You can check which sensor the CubeCell device has found:
   - Select your COM Port and click connect.
   - Select the Debug Tab
    - Press the Reset (RST) button on you CubeCell device.
-   - you should see a message with the name of your Sensor (for example "BME680 found")
+   - you should see a message with the address and the name of your sensor
+   
+	Scanning...
+	I2C device found at address 0xADDRESS
+	SENSORNAME found
 
 ## Connecting a battery to the CubeCell Capsule
 
