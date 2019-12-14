@@ -130,9 +130,9 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
 
 ## The Things Network decoder
 
-Login to TTN and go to your application you have previously defined the device in.
-Now you can define the decoder for this application.  
-The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
+= Login to TTN and go to your application you have previously defined the device in.
+- Now you can define the decoder for this application.  
+- The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
 ## Connecting a sensor
 
