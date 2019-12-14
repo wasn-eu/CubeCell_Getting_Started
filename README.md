@@ -38,15 +38,15 @@ The easy way to get the Capsule up and running is:
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
 </p>
 
-    - Select the right COM port (don't click connect)
-    - Select the Flash Tab
-    - Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
-    - Select the right frequency band (EU868, US915, AU915)
-    - Select RGB LED Status (on, off)
-    - click Flash Firmware
+  - Select the right COM port (don't click connect)
+  - Select the Flash Tab
+  - Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
+  - Select the right frequency band (EU868, US915, AU915)
+  -  Select RGB LED Status (on, off)
+  - click Flash Firmware
       - Firmware is now downloaded from github.
       - The firmware will be written to the capsule
-    - switch to the debug tab you should see:
+  - switch to the debug tab you should see:
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
 </p>
@@ -114,17 +114,17 @@ OneWire Sensors are supported on the OW connector (internal GPIO1).
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_debug.PNG" width=500>  
 </p>
 
-		 AT+DevEui=YOURDEVEUI
-	     AT+AppEui=YOURAPPEUI
-	     AT+AppKey=YOURAPPKEY
-	     AT+DutyCycle=YOURDUTYCYCLEINMS
-	     AT+RESET=1
+	AT+DevEui=YOURDEVEUI
+	AT+AppEui=YOURAPPEUI
+	AT+AppKey=YOURAPPKEY
+	AT+DutyCycle=YOURDUTYCYCLEINMS
+	AT+RESET=1
   - Now you should see the Join Requests in your TTN Application and short after that data comming in.
 
 
 ## The Things Network decoder
 
-Login to TTN and go to your application you have previously devined the device in
+Login to TTN and go to your application you have previously defined the device in.
 Now you can define the decoder for this application.  
 The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
