@@ -28,6 +28,8 @@
 
 If you have a Indoor/ModularNode or CubeCell board just connect the micro USB to your computer
 
+The drivers for the Silabs CP210x USB to serial adapter should be installed automatically via windows update. If not you can download it [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip).
+
 ## Use CubeCell Configurator to upload firmware
 
 The easy way to get the Capsule up and running is:
