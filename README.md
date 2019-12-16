@@ -9,6 +9,7 @@
 [The Things Network decoder](#the-things-network-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
 [Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
+[Known AT Commands](#known-at-commands)
 
 
 ## Connecting the Indoor/ModularNode or CubeCell to your Computer
@@ -198,3 +199,29 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png" width=500>  
 </p>
+
+## Known AT Commands
+
+    AT Command              | Value                        
+    ------------------------+-------------------------------------------------------------------------
+    +LORAWAN=1              | LoRaWAN  1, LoRa 0
+    +OTAA=1                 | OTAA -1, ABP-0  
+    +Class=A                | Class A or C  
+    +ADR=1                  | 1 on 0 for off  
+    +IsTxConfirmed=1        | LoRaWAN ACK Message 1 on, 0 off.  
+    +AppPort=2              | The Application Port 2 for general APPs and 10 for TTN MAPPER.  
+    +DutyCycle=60000        | The time between transmission in mS. Typically, 15000 to 3600000  
+    +ConfirmedNbTrials=8    | The number of adaptive rate changes allowed.  
+    +DevEui=???             | Unique (OTAA Mode) 
+    +AppEui=???             | Unique (OTAA Mode)
+    +AppKey=???             | Unique (OTAA Mode)  
+    +NwkSKey=???            | Unique (ABP Mode)
+    +Passkey=???            | Unique (ABP Mode)
+    +DevAddr=???            | Unique (ABP Mode) 
+    +LPM=1  	        | Low Power Mode
+    +ChipID=???	        | get ChipID
+    +JOIN=1	                | start join
+    +DelCDKEY=1 	        | to delete the CDKEY
+    +DefaultSet=1           | to reset parameter to Default setting
+    
+
