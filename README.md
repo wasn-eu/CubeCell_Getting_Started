@@ -219,7 +219,7 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
     +Passkey=???            | Unique (ABP Mode)
     +DevAddr=???            | Unique (ABP Mode) 
     +LPM=1  	        | Low Power Mode
-    +ChipID=???	        | get ChipID
+    +ChipID=?	        | get ChipID
     +JOIN=1	                | start join
     +DelCDKEY=1 	        | to delete the CDKEY
     +DefaultSet=1           | to reset parameter to Default setting
