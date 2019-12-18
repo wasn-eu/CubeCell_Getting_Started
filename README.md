@@ -9,7 +9,7 @@
 [The Things Network decoder](#the-things-network-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
 [Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
-[RGB LED](#rgb-led)
+[RGB LED](#rgb-led)  
 [Known AT Commands](#known-at-commands)
 
 
