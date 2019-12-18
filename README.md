@@ -9,6 +9,7 @@
 [The Things Network decoder](#the-things-network-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
 [Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
+[RGB LED](#rgb-led)
 [Known AT Commands](#known-at-commands)
 
 
@@ -199,6 +200,14 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png" width=500>  
 </p>
+
+## RGB LED
+
+ * RGB red means sending;
+ * RGB purple means joined done;
+ * RGB blue means RxWindow1;
+ * RGB yellow means RxWindow2;
+ * RGB green means received done;
 
 ## Known AT Commands
 
