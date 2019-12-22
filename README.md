@@ -181,9 +181,16 @@ You can check which sensor the CubeCell device has found:
 
   - Select your COM Port and click connect.
    - Press the Reset (RST) button on you CubeCell device.
-   - you should see a message with the address and the name of your sensor
+   - you should see a message with the name of your sensor
    
 	Copyright @ 2019 Heltec Automation.All rights reserved.
+	Sensor Port Scanning...
+	  Found BME680
+	  Found MPU9250
+	...
+   - Or if you have the I2C Switch installed you will see the Port number and name of the sensor:
+   
+   	Copyright @ 2019 Heltec Automation.All rights reserved.
 	Sensor Port Scanning...
 	  Port 0
 	    Found BME680
