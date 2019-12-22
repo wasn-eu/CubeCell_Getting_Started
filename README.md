@@ -94,7 +94,7 @@ These sensors are supported:
 - MPU9250
 - SHT2x
 
-OneWire Sensors are supported on the OW connector (internal GPIO1).
+OneWire Sensors will be supported on the OW connector (internal GPIO1). Right now the CubeCell hangs sometimes with activated OneWire.
 
 ## Use CubeCell Configurator for configuration
 
@@ -169,7 +169,7 @@ These sensors are supported:
 - HDC1080
 - SHT2x
 
-OneWire Sensors are supported on the OW connector (internal GPIO1).
+OneWire Sensors will be supported on the OW connector (internal GPIO1). Right now the CubeCell hangs sometimes with activated OneWire.
 
 You can check which sensor the CubeCell device has found:
 
@@ -183,9 +183,13 @@ You can check which sensor the CubeCell device has found:
    - Press the Reset (RST) button on you CubeCell device.
    - you should see a message with the address and the name of your sensor
    
-	Scanning...
-	I2C device found at address 0xADDRESS
-	SENSORNAME found
+	Copyright @ 2019 Heltec Automation.All rights reserved.
+	Sensor Port Scanning...
+	  Port 0
+	    Found BME680
+	  Port 1
+	    Found MPU9250
+	...
 
 ## Connecting a battery to the CubeCell Capsule
 
