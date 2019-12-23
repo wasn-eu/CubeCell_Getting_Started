@@ -222,6 +222,9 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 
 ## Known AT Commands
 
+This are the common AT commands.
+A full list can be found in this [PDF](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Getting%20Started%20Guide.pdf)
+
     AT Command              | Value                        
     ------------------------+-------------------------------------------------------------------------
     +LORAWAN=1              | LoRaWAN  1, LoRa 0
