@@ -1,41 +1,36 @@
-#line 1 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+# 1 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 /*
+
   LoRaWan_MultiSensor
-  programmed by WideAreaSensorNetwork
-  v2.0.1 by WASN.eu
-*/
 
-#include "LoRaWan_APP.h"
-#include "Arduino.h"
-#include "Wire.h"
+  programmed by WideAreaSensorNetwork
+
+  v2.0.1 by WASN.eu
+
+*/
+# 7 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+# 8 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 9 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 10 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
 
 /*
+
    Define your Settings below
+
 */
-
-#define AUTO_SCAN  1
-#define BME_680    0
-#define BME_280    0
-#define CCS_811    0
-#define BMP_280    0
-#define BMP_180    0
-#define HDC_1080   0
-#define BH_1750    0
-#define SHT_2X     0
-#define ADS_1015   0
-#define MPU_9250   0
-#define One_Wire   1 
-
+# 28 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 const char myDevEui[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 const char myAppEui[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 const char myAppKey[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 
-#define ModularNode 1   // only usable with a WASN ModularNode
+
 
 /*
-  NO USER CHANGES NEEDED UNDER THIS LINE
-*/
 
+  NO USER CHANGES NEEDED UNDER THIS LINE
+
+*/
+# 38 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 //CAPSULE_001
 //const char myDevEui[] = { 0x00, 0x23, 0x07, 0xE7, 0x01, 0xEE, 0xDF, 0x8E };
 //const char myAppEui[] = { 0x70, 0xB3, 0xD5, 0x7E, 0xD0, 0x02, 0x3C, 0x84 };
@@ -74,109 +69,193 @@ const char myAppKey[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 /*the application data transmission duty cycle.  value in [ms].*/
 uint32_t APP_TX_DUTYCYCLE = 900000;
 
-#include "BH1750.h"
-#include "BMP280.h"
-#include "HDC1080.h"
-#include "CCS811.h"
-#include "hal/soc/flash.h"
-#include "BME680.h"
-#include "BME280.h"
-#include "BMP180.h"
-#include "SHT2x.h"
-#include "ADS1015.h"
-#include "MPU9250.h"
-#include "OneWire.h"
+# 77 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 78 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 79 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 80 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 81 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 82 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 83 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 84 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 85 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 86 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 87 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
+# 88 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 2
 
 extern uint8_t DevEui[];
 extern uint8_t AppEui[];
 extern uint8_t AppKey[];
 
-bool BME_680_e[8] = {0,0,0,0,0,0,0,0};  // 1
-bool BME_280_e[8] = {0,0,0,0,0,0,0,0};  // 2
-bool CCS_811_e[8] = {0,0,0,0,0,0,0,0};  // 3
-bool HDC_1080_e[8] = {0,0,0,0,0,0,0,0}; // 4
-bool BMP_180_e[8] = {0,0,0,0,0,0,0,0};  // 5
-bool BH_1750_e[8] = {0,0,0,0,0,0,0,0};  // 6
-bool BMP_280_e[8] = {0,0,0,0,0,0,0,0};  // 7
-bool SHT_2X_e[8] = {0,0,0,0,0,0,0,0};   // 8
-bool ADS_1015_e[8] = {0,0,0,0,0,0,0,0}; // 9
-bool MPU_9250_e[8] = {0,0,0,0,0,0,0,0}; // 10
-bool One_Wire_e = false; // 100-103
+
+# 93 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 93 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    BME_680_e[8] = {0,0,0,0,0,0,0,0}; // 1
+
+# 94 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 94 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    BME_280_e[8] = {0,0,0,0,0,0,0,0}; // 2
+
+# 95 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 95 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    CCS_811_e[8] = {0,0,0,0,0,0,0,0}; // 3
+
+# 96 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 96 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    HDC_1080_e[8] = {0,0,0,0,0,0,0,0}; // 4
+
+# 97 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 97 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    BMP_180_e[8] = {0,0,0,0,0,0,0,0}; // 5
+
+# 98 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 98 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    BH_1750_e[8] = {0,0,0,0,0,0,0,0}; // 6
+
+# 99 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 99 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    BMP_280_e[8] = {0,0,0,0,0,0,0,0}; // 7
+
+# 100 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 100 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    SHT_2X_e[8] = {0,0,0,0,0,0,0,0}; // 8
+
+# 101 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 101 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    ADS_1015_e[8] = {0,0,0,0,0,0,0,0}; // 9
+
+# 102 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 102 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    MPU_9250_e[8] = {0,0,0,0,0,0,0,0}; // 10
+
+# 103 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 103 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    One_Wire_e = 
+# 103 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                 false
+# 103 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                      ; // 100-103
 uint8_t sensortype = 0;
 
 /*
+
    set LoraWan_RGB to Active,the RGB active in loraWan
+
    RGB red means sending;
+
    RGB purple means joined done;
+
    RGB blue means RxWindow1;
+
    RGB yellow means RxWindow2;
+
    RGB green means received done;
-*/
-#ifndef LoraWan_RGB
-#define LoraWan_RGB 0
-#endif
 
+*/
+# 118 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 /*
+
    set to 1 the enable AT mode
+
    set to 0 the disable support AT mode
+
 */
-#ifndef AT_SUPPORT
-#define AT_SUPPORT 0
-#endif
-
-#ifndef ACTIVE_REGION
-#define ACTIVE_REGION LORAMAC_REGION_EU868
-#endif
-
-#ifndef LORAWAN_CLASS
-#define LORAWAN_CLASS CLASS_A
-#endif
-
-#ifndef LORAWAN_NETMODE
-#define LORAWAN_NETMODE 0
-#endif
-
-#ifndef LORAWAN_ADR
-#define LORAWAN_ADR 1
-#endif
-
-#ifndef LORAWAN_Net_Reserve
-#define LORAWAN_Net_Reserve 1
-#endif
-
+# 146 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 /*LoraWan Class*/
-DeviceClass_t  CLASS = LORAWAN_CLASS;
+DeviceClass_t CLASS = CLASS_A;
 /*OTAA or ABP*/
-bool OVER_THE_AIR_ACTIVATION = LORAWAN_NETMODE;
+
+# 149 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 149 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    OVER_THE_AIR_ACTIVATION = 
+# 149 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                              true
+# 149 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                             ;
 /*ADR enable*/
-bool LORAWAN_ADR_ON = LORAWAN_ADR;
+
+# 151 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 151 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    LORAWAN_ADR_ON = 
+# 151 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                     true
+# 151 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                ;
 /* set LORAWAN_Net_Reserve ON, the node could save the network info to flash, when node reset not need to join again */
-bool KeepNet = LORAWAN_Net_Reserve;
+
+# 153 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 153 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    KeepNet = 
+# 153 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+              false
+# 153 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                 ;
 /*LoraWan REGION*/
-LoRaMacRegion_t REGION = ACTIVE_REGION;
+LoRaMacRegion_t REGION = LORAMAC_REGION_AU915;
 
 /* Indicates if the node is sending confirmed or unconfirmed messages */
-bool IsTxConfirmed = true;
+
+# 158 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 158 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    IsTxConfirmed = 
+# 158 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                    true
+# 158 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                        ;
 /*!
+
   Number of trials to transmit the frame, if the LoRaMAC layer did not
+
   receive an acknowledgment. The MAC performs a datarate adaptation,
+
   according to the LoRaWAN Specification V1.0.2, chapter 18.4, according
+
   to the following table:
 
+
+
   Transmission nb | Data Rate
+
   ----------------|-----------
+
   1 (first)       | DR
+
   2               | DR
+
   3               | max(DR-1,0)
+
   4               | max(DR-1,0)
+
   5               | max(DR-2,0)
+
   6               | max(DR-2,0)
+
   7               | max(DR-3,0)
+
   8               | max(DR-3,0)
 
+
+
   Note, that if NbTrials is set to 1 or 2, the MAC will not decrease
+
   the datarate, in case the LoRaMAC layer did not receive an acknowledgment
+
 */
+# 179 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 uint8_t ConfirmedNbTrials = 8;
 
 /* Application port */
@@ -191,9 +270,9 @@ HDC1080 hdc1080;
 CCS811 ccs;
 BMP280 bmp280;
 BH1750 lightMeter;
-#define ROW 0
-#define ROW_OFFSET 0
-#define addr CY_SFLASH_USERBASE+CY_FLASH_SIZEOF_ROW*ROW + ROW_OFFSET
+
+
+
 uint8_t baselineflash[2];
 BME680_Class bme680;
 BME280 bme280;
@@ -201,56 +280,49 @@ BMP085 bmp180;
 MPU9250 mpu9250;
 ADS1015 ads1015;
 
-OneWire  ds(GPIO1);  // on pin GPIO1 PIN6 (a 4.7K resistor is necessary)
+OneWire ds(P6_1); // on pin GPIO1 PIN6 (a 4.7K resistor is necessary)
 
 /*!
-   \brief   Prepares the payload of the frame
-*/
 
-#line 209 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
-static void PrepareTxFrame( uint8_t port );
-#line 903 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
-void setup();
-#line 1101 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
-void loop();
-#line 1152 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
-float CalculateIAQ();
-#line 1190 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
-void tcaselect(uint8_t i);
-#line 209 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+   \brief   Prepares the payload of the frame
+
+*/
+# 209 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
 static void PrepareTxFrame( uint8_t port )
 {
-  pinMode(Vext, OUTPUT);
-  digitalWrite(Vext, LOW);
+  pinMode(P3_2 /*gpio6*/, OUTPUT);
+  digitalWrite(P3_2 /*gpio6*/, LOW);
   delay(500);
 
   AppDataSize = 0;
   int pnr = 0;
 
-#if(ModularNode == 1)
-  for (pnr=0;pnr<8;pnr++) { 
+
+  for (pnr=0;pnr<8;pnr++) {
     Serial.print("Sensor Port ");
     Serial.println(pnr);
-#endif
+
 
     /*
-        BME680
-    */
 
+        BME680
+
+    */
+# 228 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (BME_680_e[pnr]) {
       sensortype = 1;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       bme680.begin(I2C_STANDARD_MODE);
       delay(1000);
       bme680.setOversampling(TemperatureSensor, Oversample16);
-      bme680.setOversampling(HumiditySensor,   Oversample16);
-      bme680.setOversampling(PressureSensor,   Oversample16);
+      bme680.setOversampling(HumiditySensor, Oversample16);
+      bme680.setOversampling(PressureSensor, Oversample16);
       bme680.setIIRFilter(IIR4);
       bme680.setGas(320, 150); // 320C for 150 milliseconds
 
@@ -297,16 +369,19 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
+
       BME280
+
     */
+# 290 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (BME_280_e[pnr]) {
       sensortype = 2;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       if (!bme280.init()) {
         Serial.println("  BME280 error!");
@@ -340,17 +415,19 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
-        HDC1080
-    */
 
+        HDC1080
+
+    */
+# 334 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (HDC_1080_e[pnr]) {
       sensortype = 4;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       count = 0;
       hdc1080.begin(0x40);
@@ -391,23 +468,25 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
-      CCS811
-    */
 
+      CCS811
+
+    */
+# 385 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (CCS_811_e[pnr]) {
       sensortype = 3;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       count = 0;
       ccs.begin();
       delay(1000);
 
-      FLASH_read_at(addr, baselineflash, sizeof(baselineflash));
+      FLASH_read_at((0x0ffff400u) /**< The base pointer of the user SFlash memory. */+(0x00000100u) /**< The number of Flash arrays. */*0 + 0, baselineflash, sizeof(baselineflash));
       baselinetemp = (baselineflash[0] << 8) | baselineflash[1];
       if (baselinetemp > 0) {
         baseline = baselinetemp;
@@ -426,7 +505,7 @@ static void PrepareTxFrame( uint8_t port )
       baseline = ccs.getBaseline();
       baselineflash[0] = (uint8_t)(baseline >> 8);
       baselineflash[1] = (uint8_t)baseline;
-      FLASH_update(addr, baselineflash, sizeof(baselineflash));
+      FLASH_update((0x0ffff400u) /**< The base pointer of the user SFlash memory. */+(0x00000100u) /**< The number of Flash arrays. */*0 + 0, baselineflash, sizeof(baselineflash));
       Serial.print("  CCS811 Write BaseLine: ");
       Serial.println(baseline);
       Wire.end();
@@ -464,17 +543,19 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
-      BMP180
-    */
 
+      BMP180
+
+    */
+# 458 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (BMP_180_e[pnr]) {
       sensortype = 5;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       count = 0;
       bmp180.begin();
@@ -514,17 +595,19 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
-      BH1750
-    */
 
+      BH1750
+
+    */
+# 508 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (BH_1750_e[pnr]) {
       sensortype = 6;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       count = 0;
       lightMeter.begin(BH1750::ONE_TIME_HIGH_RES_MODE_2);
@@ -547,24 +630,27 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
+
         BMP_280
+
     */
+# 540 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (BMP_280_e[pnr]) {
       sensortype = 7;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       count = 0;
       bmp280.begin();
       delay(500);
-      bmp280.setSampling(BMP280::MODE_NORMAL,     /* Operating Mode. */
-                        BMP280::SAMPLING_X2,     /* Temp. oversampling */
-                        BMP280::SAMPLING_X16,    /* Pressure oversampling */
-                        BMP280::FILTER_X16,      /* Filtering. */
+      bmp280.setSampling(BMP280::MODE_NORMAL, /* Operating Mode. */
+                        BMP280::SAMPLING_X2, /* Temp. oversampling */
+                        BMP280::SAMPLING_X16, /* Pressure oversampling */
+                        BMP280::FILTER_X16, /* Filtering. */
                         BMP280::STANDBY_MS_500); /* Standby time. */
       Temperature = bmp280.readTemperature();
       Pressure = (float)bmp280.readPressure() / 100.0;
@@ -572,10 +658,10 @@ static void PrepareTxFrame( uint8_t port )
       while (Pressure > 1190.0 && count < maxtry) {
         bmp280.begin();
         delay(500);
-        bmp280.setSampling(BMP280::MODE_NORMAL,     /* Operating Mode. */
-                          BMP280::SAMPLING_X2,     /* Temp. oversampling */
-                          BMP280::SAMPLING_X16,    /* Pressure oversampling */
-                          BMP280::FILTER_X16,      /* Filtering. */
+        bmp280.setSampling(BMP280::MODE_NORMAL, /* Operating Mode. */
+                          BMP280::SAMPLING_X2, /* Temp. oversampling */
+                          BMP280::SAMPLING_X16, /* Pressure oversampling */
+                          BMP280::FILTER_X16, /* Filtering. */
                           BMP280::STANDBY_MS_500); /* Standby time. */
         Pressure = (float)bmp280.readPressure() / 100.0;
         Wire.end();
@@ -605,14 +691,17 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
+
         SHT_2X
+
     */
+# 598 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (SHT_2X_e[pnr]) {
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       Wire.begin();
       delay(500);
@@ -637,14 +726,17 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
+
         ADS_1015
+
     */
+# 630 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (ADS_1015_e[pnr]) {
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       ads1015.begin();
       int16_t adc0, adc1, adc2, adc3;
@@ -654,7 +746,7 @@ static void PrepareTxFrame( uint8_t port )
       adc2 = ads1015.readADC_SingleEnded(2);
       adc3 = ads1015.readADC_SingleEnded(3);
 
-      AppData[AppDataSize++] = pnr; 
+      AppData[AppDataSize++] = pnr;
       AppData[AppDataSize++] = 9;
 
       AppData[AppDataSize++] = ((int)adc0) >> 8;
@@ -680,16 +772,19 @@ static void PrepareTxFrame( uint8_t port )
     }
 
     /*
+
       MPU9250
+
     */
+# 673 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
     if (MPU_9250_e[pnr]) {
       sensortype = 10;
 
-      #if(ModularNode == 1) 
+
         Wire.begin();
         tcaselect(pnr);
         delay(100);
-      #endif
+
 
       Wire.begin();
       delay(500);
@@ -807,12 +902,15 @@ static void PrepareTxFrame( uint8_t port )
       AppData[AppDataSize++] = puc[2];
       AppData[AppDataSize++] = puc[3];
     }
-  #if(ModularNode == 1)
+
   }
-  #endif
+
   /*
+
     One_Wire
+
   */
+# 804 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
   if (One_Wire_e) {
     Serial.println("Scan for OneWire Sensors ...");
     byte present = 0;
@@ -827,7 +925,7 @@ static void PrepareTxFrame( uint8_t port )
       Serial.print("  OneWire Sensor found with data: ");
       for(byte i = 0; i < 8; i++) {
         Serial.write(' ');
-        Serial.print(owaddress[i], HEX);
+        Serial.print(owaddress[i], 16);
       }
 
       if (OneWire::crc8(owaddress, 7) != owaddress[7]) {
@@ -835,10 +933,10 @@ static void PrepareTxFrame( uint8_t port )
         return;
       }
       Serial.println();
-  
+
       switch (owaddress[0]) {
         case 0x10:
-          Serial.print("    Chip = DS18S20 (0x10)");  // or old DS1820
+          Serial.print("    Chip = DS18S20 (0x10)"); // or old DS1820
           type_s = 1;
           break;
         case 0x28:
@@ -852,34 +950,34 @@ static void PrepareTxFrame( uint8_t port )
         default:
           Serial.print("    Device is not known.");
         return;
-      } 
+      }
 
       ds.reset();
       ds.select(owaddress);
-      ds.write(0x44, 1);      //start conv with parsite power
-    
-      delay(1000);    
+      ds.write(0x44, 1); //start conv with parsite power
+
+      delay(1000);
 
       present = ds.reset();
-      ds.select(owaddress);    
-      ds.write(0xBE);        
-    
+      ds.select(owaddress);
+      ds.write(0xBE);
+
       // 28 AA 68 3B 4A 14 1 AC    = DS18B20 (0x28) 21.75C type_s=0
-      for (byte i = 0; i < 9; i++) {          
+      for (byte i = 0; i < 9; i++) {
         data[i] = ds.read();
       }
-    
+
       int16_t raw = (data[1] << 8) | data[0];
       if (type_s) {
-        raw = raw << 3; 
+        raw = raw << 3;
         if (data[7] == 0x10) {
           raw = (raw & 0xFFF0) + 12 - data[6];
         }
       } else {
         byte cfg = (data[4] & 0x60);
-        if (cfg == 0x00) raw = raw & ~7;  
-        else if (cfg == 0x20) raw = raw & ~3; 
-        else if (cfg == 0x40) raw = raw & ~1; 
+        if (cfg == 0x00) raw = raw & ~7;
+        else if (cfg == 0x20) raw = raw & ~3;
+        else if (cfg == 0x40) raw = raw & ~1;
       }
       Temperature = (float)raw / 16.0;
 
@@ -896,7 +994,7 @@ static void PrepareTxFrame( uint8_t port )
     ds.reset_search();
   }
 
-  digitalWrite(Vext, HIGH);
+  digitalWrite(P3_2 /*gpio6*/, HIGH);
 
   uint16_t BatteryVoltage = GetBatteryVoltage();
   AppData[AppDataSize++] = (uint8_t)(BatteryVoltage >> 8);
@@ -917,7 +1015,7 @@ void setup() {
   memcpy(AppEui, myAppEui, sizeof(myAppEui));
   memcpy(AppKey, myAppKey, sizeof(myAppKey));
 
-#if(AUTO_SCAN == 1)
+
   for (int xx=0;xx<8;xx++) {
   BME_680_e[xx] = 0;
   BME_280_e[xx] = 0;
@@ -930,64 +1028,26 @@ void setup() {
   MPU_9250_e[xx] = 0;
   }
   sensortype = 88;
-#endif
-
-#if(BME_680 == 1)
-  BME_680_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(BME_280 == 1)
-  BME_280_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(CCS_811 == 1)
-  CCS_811_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(HDC_1080 == 1)
-  HDC_1080_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(BMP_180 == 1)
-  BMP_180_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(BH_1750 == 1)
-  BH_1750_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(BMP_280 == 1)
-  BMP_280_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(SHT_2x == 1)
-  SHT_2X_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(ADS_1015 == 1)
-  ADS_1015_e = {1,0,0,0,0,0,0,0};
-#endif
-
-#if(MPU_9250 == 1)
-  MPU_9250_e = {1,0,0,0,0,0,0,0};
-#endif 
-
-#if(One_Wire == 1)
-  One_Wire_e = true;
+# 964 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+  One_Wire_e = 
+# 964 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+              true
+# 964 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                  ;
   sensortype = 100;
-#endif
+
 
   BoardInitMcu( );
   Serial.begin(115200);
-#if(AT_SUPPORT == 1)
+
   Enable_AT();
-#endif
+
   DeviceState = DEVICE_STATE_INIT;
   LoRaWAN.Ifskipjoin();
 
-#if(AUTO_SCAN == 1)
-  pinMode(Vext, OUTPUT);
-  digitalWrite(Vext, LOW); //set vext to high
+
+  pinMode(P3_2 /*gpio6*/, OUTPUT);
+  digitalWrite(P3_2 /*gpio6*/, LOW); //set vext to high
   delay(500);
   Wire.begin();
   byte error, address;
@@ -998,13 +1058,13 @@ void setup() {
   nDevices = 0;
   int pnr = 0;
 
-  #if(ModularNode == 1)
-  for (pnr=0;pnr<8;pnr++) { 
+
+  for (pnr=0;pnr<8;pnr++) {
     tcaselect(pnr);
     Serial.print(" Port ");
     Serial.println(pnr);
     nDevices = 0;
-  #endif
+
 
     for (address = 1; address < 127; address++ )
     {
@@ -1014,20 +1074,31 @@ void setup() {
       if (error == 0)
       {
         /* if (address != 112) {
-          Serial.print("    Sensor found at address 0x");
-          if (address < 16) {
-            Serial.print("0");
-          }
-          Serial.print(address, HEX);
-          Serial.println("  !");
-        } */
 
+          Serial.print("    Sensor found at address 0x");
+
+          if (address < 16) {
+
+            Serial.print("0");
+
+          }
+
+          Serial.print(address, HEX);
+
+          Serial.println("  !");
+
+        } */
+# 1013 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
         switch (address)
         {
           case 35: //0x23 -- BH1750
             {
               Serial.println("      found BH1750");
-              BH_1750_e[pnr] = true;
+              BH_1750_e[pnr] = 
+# 1018 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                              true
+# 1018 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                  ;
               break;
             }
           case 64: //0x40 -- HDC1080/SHT2X
@@ -1036,10 +1107,18 @@ void setup() {
               delay(200);
               if (hdc1080.readTemperature() > 120) {
                 Serial.println("      found SHT2X");
-                SHT_2X_e[pnr] = true;
+                SHT_2X_e[pnr] = 
+# 1027 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                               true
+# 1027 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                   ;
               } else {
                 Serial.println("      Found HDC1080");
-                HDC_1080_e[pnr] = true;
+                HDC_1080_e[pnr] = 
+# 1030 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                                 true
+# 1030 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                     ;
               }
               hdc1080.end();
               break;
@@ -1047,29 +1126,49 @@ void setup() {
           case 72: //0x48 -- ADS1015
             {
               Serial.println("      Found ADS1015");
-              ADS_1015_e[pnr] = true;
+              ADS_1015_e[pnr] = 
+# 1038 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                               true
+# 1038 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                   ;
               break;
             }
           case 90: //0x5A --CCS811
             {
               Serial.println("      Found CCS811");
-              CCS_811_e[pnr] = true;
+              CCS_811_e[pnr] = 
+# 1044 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                              true
+# 1044 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                  ;
               break;
             }
           case 104: //0x68 -- MPU9250 9-axis sensor
             {
               Serial.println("      Found MPU9250");
-              MPU_9250_e[pnr] = true;
+              MPU_9250_e[pnr] = 
+# 1050 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                               true
+# 1050 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                   ;
               break;
             }
           case 118: //0x76 -- BMP280/BME280
             {
               if (!bme280.init()) {
                 Serial.println("      Found BMP280");
-                BMP_280_e[pnr] = true;
+                BMP_280_e[pnr] = 
+# 1057 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                                true
+# 1057 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                    ;
               } else {
                 Serial.println("      Found BME280");
-                BME_280_e[pnr] = true;
+                BME_280_e[pnr] = 
+# 1060 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                                true
+# 1060 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                    ;
               }
               break;
             }
@@ -1077,10 +1176,18 @@ void setup() {
             {
               if (!bmp180.begin()) {
                 Serial.println("      Found BME680");
-                BME_680_e[pnr] = true;
+                BME_680_e[pnr] = 
+# 1068 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                                true
+# 1068 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                    ;
               } else {
                 Serial.println("      Found BMP180");
-                BMP_180_e[pnr] = true;
+                BMP_180_e[pnr] = 
+# 1071 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+                                true
+# 1071 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+                                    ;
               }
               break;
             }
@@ -1092,22 +1199,22 @@ void setup() {
         Serial.print("    Unknown error at address 0x");
         if (address < 16)
           Serial.print("0");
-        Serial.println(address, HEX);
+        Serial.println(address, 16);
       }
     }
-    #if(ModularNode == 1)
+
       nDevices--;
-    #endif
+
     if (nDevices == 0)
     {
       Serial.println("  No Sensors found");
     }
-  #if(ModularNode == 1)
+
   }
-  #endif
-  
+
+
   Wire.end();
-#endif
+
 }
 
 void loop()
@@ -1116,12 +1223,12 @@ void loop()
   {
     case DEVICE_STATE_INIT:
       {
-#if(AT_SUPPORT == 1)
+
         getDevParam();
-#endif
+
         printDevParam();
         Serial.print("+LED=");
-        Serial.println(LoraWan_RGB);
+        Serial.println(0);
         Serial.println("");
         Serial.printf("LoRaWan Class % X  start! \r\n", CLASS + 10);
         LoRaWAN.Init(CLASS, REGION);
@@ -1143,7 +1250,7 @@ void loop()
     case DEVICE_STATE_CYCLE:
       {
         // Schedule next packet transmission
-        TxDutyCycleTime = APP_TX_DUTYCYCLE + randr( 0, APP_TX_DUTYCYCLE_RND );
+        TxDutyCycleTime = APP_TX_DUTYCYCLE + randr( 0, 1000 );
         LoRaWAN.Cycle(TxDutyCycleTime);
         DeviceState = DEVICE_STATE_SLEEP;
         break;
@@ -1169,7 +1276,7 @@ float CalculateIAQ()
   float hum_score, gas_score;
   float gas_reference = co2;
   float hum_reference = 40;
-  int   getgasreference_count = 0;
+  int getgasreference_count = 0;
 
   //Calculate humidity contribution to IAQ index
   if (Humidity >= 38 && Humidity <= 42)
@@ -1185,8 +1292,8 @@ float CalculateIAQ()
   }
 
   //Calculate gas contribution to IAQ index
-  float gas_lower_limit = 5000;   // Bad air quality limit
-  float gas_upper_limit = 50000;  // Good air quality limit
+  float gas_lower_limit = 5000; // Bad air quality limit
+  float gas_upper_limit = 50000; // Good air quality limit
   if (gas_reference > gas_upper_limit) gas_reference = gas_upper_limit;
   if (gas_reference < gas_lower_limit) gas_reference = gas_lower_limit;
   gas_score = (0.75 / (gas_upper_limit - gas_lower_limit) * gas_reference - (gas_lower_limit * (0.75 / (gas_upper_limit - gas_lower_limit)))) * 100;
@@ -1197,32 +1304,44 @@ float CalculateIAQ()
   return air_quality_score;
 }
 
-#define TCAADDR 0x70
+
 
 void tcaselect(uint8_t i) {
   if (i > 7) return;
 
-  Wire.beginTransmission(TCAADDR);
+  Wire.beginTransmission(0x70);
   Wire.write(1 << i);
   Wire.endTransmission();
 }
 
-bool AT_user_check(char * cmd, char * content)
+
+# 1198 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+bool 
+# 1198 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+    AT_user_check(char * cmd, char * content)
 {
   if(strcmp(cmd,"LED")==0)
   {
     if (content[0] == '?') {
       Serial.print("+LED=");
-      Serial.println(LoraWan_RGB);
+      Serial.println(0);
     } else if (content[0] == 1) {
-      #define LoraWan_RGB 1;
+
       Serial.println("+LED=1");
       Serial.println("+OK");
     } else if (content[0] == 0) {
-      #define LoraWan_RGB 0;
+
       Serial.println("+OK");
     }
-    return true;
+    return 
+# 1213 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+          true
+# 1213 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+              ;
   }
-  return false;
+  return 
+# 1215 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino" 3 4
+        false
+# 1215 "C:\\Users\\raystream\\Documents\\#Development\\LoRa\\CubeCell\\capsule_multisensor\\capsule_multisensor.ino"
+             ;
 }

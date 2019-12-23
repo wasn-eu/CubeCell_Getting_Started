@@ -68,6 +68,7 @@ The firmware has the following config:
   - EU868
   - US915
   - AU915
+  - IN865
 - CLASS_A
 - OTAA
 - ADR: ON
@@ -80,7 +81,11 @@ The firmware has the following config:
 
 The firmware auto detects the connected I2C sensor.  
 You can connect more than one sensor to the I2C bus.  
-The only limitation is, that you can connect only 1 sensor of each modell on each sensor socket.  
+The only limitation is, that you can connect only 1 sensor of each modell on each sensor socket. 
+
+If you have a TCA9548A I2C Switch conncted to the I2C Bus, Vext and GND you can connect up to 8 sensors of each model to each switch output. 
+You need to flash the ModularNode firmware to activate the use of the TCA9548A I2C switch.
+
 These sensors are supported:
 
 - ADS1015/ADS1115
@@ -157,6 +162,10 @@ If not here is the pinout for connecting your sensor:
 
 You can connect more than one sensor to the I2C bus.  
 The only limitation is, that you can connect only 1 sensor of each modell on each sensor socket.  
+
+If you have a TCA9548A I2C Switch conncted to the I2C Bus, Vext and GND you can connect up to 8 sensors of each model to each switch output. 
+You need to flash the ModularNode firmware to activate the use of the TCA9548A I2C switch.
+
 These sensors are supported:
 
 - ADS1015/ADS1115
