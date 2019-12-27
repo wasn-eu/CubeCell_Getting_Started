@@ -77,6 +77,7 @@ The firmware has the following config:
 - RGB: (selectable)
   - ACTIVE
   - DEACTIVE
+- unconfirmed uplink
 - All Keys set to zero
 
 The firmware auto detects the connected I2C sensor.  
@@ -98,6 +99,7 @@ These sensors are supported:
 - HDC1080
 - MPU9250
 - SHT2x
+- VL53L1X
 
 OneWire Sensors will be supported on the OW connector (internal GPIO1). Right now the CubeCell hangs sometimes with activated OneWire.
 
@@ -177,6 +179,7 @@ These sensors are supported:
 - CCS811   
 - HDC1080
 - SHT2x
+- VL53L1X
 
 OneWire Sensors will be supported on the OW connector (internal GPIO1). Right now the CubeCell hangs sometimes with activated OneWire.
 
