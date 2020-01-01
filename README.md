@@ -13,6 +13,9 @@
 [Known AT Commands](#known-at-commands)
 
 
+**You need to use Configurator version 3.4 ore above, all older version will nor work anymore.**
+
+
 ## Connecting the Indoor/ModularNode or CubeCell to your Computer
 
 - connect the USB board to the capsule  
