@@ -42,16 +42,21 @@ The easy way to get the Capsule up and running is:
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
 </p>
 
-  - Select the right COM port (don't click connect)
+  - Select the right COM port (if you would like to preserve EUIs click connect, else don't click connect)
   - Select the Flash Tab
   	- Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
   	- Select the right frequency band (EU868, US915, AU915)
   	-  Select RGB LED Status (on, off)
   	- click Flash Firmware
-      	- Firmware is now downloaded from github.
-      	- The firmware will be written to the capsule 
-      		- The debug text box shows the state of the firmware download and flash.
-		- If an error happens this will be in the debug text box too.
+    <p align="center">
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash_2.PNG" width=500>  
+</p>
+        - If you have clicked on connet in the first step, you will see a checkbox with the option to preserve EUIs, else this checkbox is not shown
+        - Click on Flash Firmware to start the process
+      	  - Firmware is now downloaded from github.
+      	  - The firmware will be written to the capsule 
+      		  - The debug text box shows the state of the firmware download and flash.
+		  - If an error happens this will be in the debug text box too.
         
               Downloading Firmware …
               Downloading Firmware done
