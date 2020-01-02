@@ -45,7 +45,8 @@ The easy way to get the Capsule up and running is:
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
 </p>
-  - just skip the next steps to download the firmware from the online catalog
+
+  - just skip the next 3 steps to download the firmware from the online catalog
     - click check to see what version is online and what version in in your offline catalog
     - click update to update the offline catalog with the newest online version
     - to use the offline catalog activate the checkbox "use offline Firmware catalog"
