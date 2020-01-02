@@ -41,12 +41,15 @@ The easy way to get the Capsule up and running is:
 
 - Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
 - Open the CubeCell Configurator
+  - Select the Flash Tab
 <p align="center">
 <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
 </p>
-
+  - just skip the next steps to download the firmware from the online catalog
+    - click check to see what version is online and what version in in your offline catalog
+    - click update to update the offline catalog with the newest online version
+    - to use the offline catalog activate the checkbox "use offline Firmware catalog"
   - Select the right COM port (if you would like to preserve configuration click connect, else not)
-  - Select the Flash Tab
   	- Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
   	- Select the right frequency band (EU868, US915, AU915)
   	-  Select RGB LED Status (on, off)
