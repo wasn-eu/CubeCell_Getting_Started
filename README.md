@@ -100,7 +100,8 @@ The only limitation is, that you can connect only 1 sensor of each modell on eac
 
 If you have a TCA9548A I2C Switch conncted to the I2C Bus, Vext and GND you can connect up to 8 sensors of each model to each switch output. 
 You need to flash the TCA9548A firmware to activate the use of the TCA9548A I2C switch.
-The ModularNode Firmware is only for our ModularNode.
+
+**The IndoorNode and ModularNode Firmware is only for our Nodes. This Firmwares will not work on other hardware.**
 
 These sensors are supported:
 
