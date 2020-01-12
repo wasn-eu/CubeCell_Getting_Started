@@ -51,7 +51,7 @@ The easy way to get the Capsule up and running is:
     - click update to update the offline catalog with the newest online version
     - to use the offline catalog activate the checkbox "use offline Firmware catalog"
   - Select the right COM port (if you would like to preserve configuration click connect, else not)
-  	- Select the Node Type (IndoorNode, ModularNode, Board, Capsule)
+  	- Select the Node Type (IndoorNode, ModularNode, Board, Capsule, TCA9548A)
   	- Select the right frequency band (EU868, US915, AU915)
   	-  Select RGB LED Status (on, off)
   	- click Flash Firmware
@@ -99,7 +99,8 @@ You can connect more than one sensor to the I2C bus.
 The only limitation is, that you can connect only 1 sensor of each modell on each sensor socket. 
 
 If you have a TCA9548A I2C Switch conncted to the I2C Bus, Vext and GND you can connect up to 8 sensors of each model to each switch output. 
-You need to flash the ModularNode firmware to activate the use of the TCA9548A I2C switch.
+You need to flash the TCA9548A firmware to activate the use of the TCA9548A I2C switch.
+The ModularNode Firmware is only for our ModularNode.
 
 These sensors are supported:
 
@@ -158,10 +159,9 @@ OneWire Sensors will be supported on the OW connector (internal GPIO1). Right no
 
 ## Connecting a sensor
 
-If you have bought the IndoorNode ([buy](https://www.wasn.eu/p/wasn-indoor-node-mit-cjmcu-8128-sensor)) there is a BME680 sensor fitted in the case.
+If you have bought the IndoorNode ([buy](https://www.wasn.eu/p/wasn-indoor-node-mit-cjmcu-8128-sensor)) there is a BME280 or BME680 sensor fitted in the case.
 
-If you have bought the ModularNode ([buy](https://www.wasn.eu/p/wasn-modular-outdoor-node)) you can connect the sensor to one of the 8 sockets 
-or the OneWire Sensors to the OW socket.
+If you have bought the ModularNode ([buy](https://www.wasn.eu/p/wasn-modular-outdoor-node)) you can connect the sensor to one of the 3 sockets.
 
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule./p>
 <p align="center">
@@ -207,8 +207,8 @@ You can check which sensor the CubeCell device has found:
 </p>
 
   - Select your COM Port and click connect.
-   - Press the Reset (RST) button on you CubeCell device.
-   - you should see a message with the name of your sensor
+   - Click the Reset button.
+   - you should see a message with the name of your sensor:
    
 	Copyright @ 2019 Heltec Automation.All rights reserved.
 	Sensor Port Scanning...
