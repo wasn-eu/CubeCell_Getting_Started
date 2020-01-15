@@ -4,6 +4,7 @@
 
 
 [Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
+[Choosing the right firmware version](#choosing-the-right-firmware-version)
 [Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
 [Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration)  
 [The Things Network decoder](#the-things-network-decoder)  
@@ -34,6 +35,21 @@
 If you have a Indoor/ModularNode or CubeCell board just connect the micro USB to your computer
 
 The drivers for the Silabs CP210x USB to serial adapter should be installed automatically via windows update. If not you can download it [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip).
+
+## Choosing the right firmware version
+
+Before flashing the firmware you have to choose the firmware type.
+You have to choose between IndoorNode, ModularNode, Board, Capsule, TCA9548A.
+
+Here is a comparison of these types:
+
+| Type        | IIC | OneWire | TCA9548A | Sensor Auto Scan         |
+|-------------|-----|---------|----------|--------------------------|
+| IndoorNode  |  X  |         |          | only BME280/BME680       |
+| ModularNode |  X  |    X    |     X    | all sensors listet below |
+| Board       |  X  |    X    |          | all sensors listet below |
+| Capsule     |  X  |         |          | all sensors listet below |
+| TCA9548A    |  X  |    X    |     X    | all sensors listet below |
 
 ## Use CubeCell Configurator to upload firmware
 
