@@ -4,7 +4,7 @@
 
 
 [Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
-[Choosing the right firmware version](#choosing-the-right-firmware-version)
+[Choosing the right firmware version](#choosing-the-right-firmware-version)    
 [Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
 [Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration)  
 [The Things Network decoder](#the-things-network-decoder)  
