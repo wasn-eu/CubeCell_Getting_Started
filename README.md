@@ -51,6 +51,20 @@ Here is a comparison of these types:
 | Capsule     |  X  |         |          | all sensors listet below |
 | TCA9548A    |  X  |    X    |     X    | all sensors listet below |
 
+These sensors are supported:
+
+- ADS1015/ADS1115
+- BH1750   
+- BME680 
+- BME280 
+- BMP180
+- BMP280
+- CCS811   
+- HDC1080
+- MPU9250
+- SHT2x
+- VL53L1X
+
 ## Use CubeCell Configurator to upload firmware
 
 The easy way to get the Capsule up and running is:
@@ -119,21 +133,7 @@ You need to flash the TCA9548A firmware to activate the use of the TCA9548A I2C 
 
 **The IndoorNode and ModularNode Firmware is only for our Nodes. This Firmwares will not work on other hardware.**
 
-These sensors are supported:
-
-- ADS1015/ADS1115
-- BH1750   
-- BME680 
-- BME280 
-- BMP180
-- BMP280
-- CCS811   
-- HDC1080
-- MPU9250
-- SHT2x
-- VL53L1X
-
-OneWire Sensors will be supported on the OW connector (internal GPIO1). Right now the CubeCell hangs sometimes with activated OneWire.
+OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire.
 
 ## Use CubeCell Configurator for configuration
 
@@ -200,20 +200,7 @@ The only limitation is, that you can connect only 1 sensor of each modell on eac
 If you have a TCA9548A I2C Switch conncted to the I2C Bus, Vext and GND you can connect up to 8 sensors of each model to each switch output. 
 You need to flash the ModularNode firmware to activate the use of the TCA9548A I2C switch.
 
-These sensors are supported:
-
-- ADS1015/ADS1115
-- BH1750   
-- BME680 
-- BME280 
-- BMP180
-- BMP280
-- CCS811   
-- HDC1080
-- SHT2x
-- VL53L1X
-
-OneWire Sensors will be supported on the OW connector (internal GPIO1). Right now the CubeCell hangs sometimes with activated OneWire.
+OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire.
 
 You can check which sensor the CubeCell device has found:
 
