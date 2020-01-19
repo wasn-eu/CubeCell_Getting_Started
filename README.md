@@ -73,7 +73,7 @@ The easy way to get the Capsule up and running is:
 - Open the CubeCell Configurator
   - Select the Flash Tab
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=500>  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=750>  
 </p>
 
   - just skip the next 3 steps to download the firmware from the online catalog
@@ -86,7 +86,7 @@ The easy way to get the Capsule up and running is:
   	-  Select RGB LED Status (on, off)
   	- click Flash Firmware
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash_2.PNG" width=500>  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash_2.PNG" width=750>  
 </p>
 
  - If you have clicked on connect in the first step, you will see a checkbox with the option to preserve configuration, else this checkbox is not shown
@@ -142,7 +142,7 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 - Open the CubeCell Configurator
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
+<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=750>  
 </p>
 
   - Select your COM Port and click connect.
