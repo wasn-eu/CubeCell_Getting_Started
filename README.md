@@ -116,7 +116,7 @@ The firmware has the following config:
 - CLASS_A
 - OTAA
 - ADR: ON
-- Net_Reservation: ON
+- Net_Reservation: OFF
 - AT_SUPPORT: ON
 - RGB: (selectable)
   - ACTIVE
@@ -147,9 +147,13 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 
   - Select your COM Port and click connect.
   - Select the Config Tab
-  	- Device EUI, Application EUI, App Key and DutyCycle are read from the CubeCell device.
-  	- copy the keys: Device EUI, Application EUI and App Key
-    	- Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
+  	- all EUIs, Keys, \auth type and DutyCycle are read from the CubeCell device.
+	- Choose the authentification type (OTAA is default).
+  	- copy the keys: 
+	  - for OTAA auth: Device EUI, Application EUI and App Key
+	  - for ABP auth: Device EUI, Application EU, Device Address, Network Session Key and App Session Key
+    - Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
+	- Set a Dutycycle (Sleeptime between 2 sends).
     - by default all uplinks are unconfirmed, if you need confirmed uplinks please enable the TX confirmed checkbox
   	- Click on Write.
   - The keys will be saved in the CubeCell device and the device will reboot
