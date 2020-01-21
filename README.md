@@ -43,13 +43,14 @@ You have to choose between IndoorNode, ModularNode, Board, Capsule, TCA9548A.
 
 Here is a comparison of these types:
 
-| Type        | IIC | OneWire | TCA9548A | Sensor Auto Scan         |
-|-------------|-----|---------|----------|--------------------------|
-| IndoorNode  |  X  |         |          | only BME280/BME680       |
-| ModularNode |  X  |    X    |     X    | all sensors listet below |
-| Board       |  X  |    X    |          | all sensors listet below |
-| Capsule     |  X  |         |          | all sensors listet below |
-| TCA9548A    |  X  |    X    |     X    | all sensors listet below |
+| Type        | IIC | OneWire | TCA9548A | Sensor Auto Scan         | Comments                     |
+|-------------|-----|---------|----------|--------------------------|------------------------------|
+| IndoorNode  |  X  |         |          | only BME280/BME680       | special for WASN IndoorNode  |
+| ModularNode |  X  |    X    |     X    | all sensors listet below | special for WASN ModularNode |
+| Board       |  X  |    X    |          | all sensors listet below |                              |
+| Capsule     |  X  |         |          | all sensors listet below |                              |
+| TCA9548A    |  X  |    X    |     X    | all sensors listet below |                              |
+| Mapper      |     |         |          |                          | special for WASN Mapper      |
 
 These sensors are supported:
 
