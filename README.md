@@ -14,7 +14,7 @@
 [Known AT Commands](#known-at-commands)
 
 
-**You need to use Configurator version 3.4 or above, all older version will nor work anymore.**
+**You need to use Configurator version 5.0 or above, all older version will nor work anymore.**
 
 
 ## Connecting the Indoor/ModularNode or CubeCell to your Computer
