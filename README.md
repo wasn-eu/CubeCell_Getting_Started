@@ -1,6 +1,6 @@
-# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150> ModularNode & IndoorNode
-# <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/HelTec.png" width=70> <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/cubecell.png" width=70> Getting Started Guide
-# (c) by <img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=70>
+# <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=150> ModularNode & IndoorNode
+# <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/HelTec.png" width=70> <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/cubecell.png" width=70> Getting Started Guide
+# (c) by <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/wasn_logo.png" width=70>
 
 
 [Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
@@ -21,13 +21,13 @@
 
 - connect the USB board to the capsule  
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/USB_board.jpg" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/USB_board.jpg" width=500>  
 </p>
 
 - the white dot on the USB board must align with the white dot on the capsule (beside the Reset button)  
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg" width=500>   
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg" width=500>    
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_wo_Sensor.jpg" width=500>   
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_and_USB.jpg" width=500>    
 </p>
 
 - connect the micro USB of the USB board to your computer  
@@ -70,11 +70,11 @@ These sensors are supported:
 
 The easy way to get the Capsule up and running is:
 
-- Download the CubeCell Configurator from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
+- Download the CubeCell Configurator from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/Configurator/CubeCellConfigurator.exe).  
 - Open the CubeCell Configurator
   - Select the Flash Tab
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=750>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_flash.PNG" width=750>  
 </p>
 
   - just skip the next 3 steps to download the firmware from the online catalog
@@ -87,7 +87,7 @@ The easy way to get the Capsule up and running is:
   	-  Select RGB LED Status (on, off)
   	- click Flash Firmware
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator_flash_2.PNG" width=750>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_flash_2.PNG" width=750>  
 </p>
 
  - If you have clicked on connect in the first step, you will see a checkbox with the option to preserve configuration, else this checkbox is not shown
@@ -143,7 +143,7 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 - Open the CubeCell Configurator
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=750>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=750>  
 </p>
 
   - Select your COM Port and click connect.
@@ -177,7 +177,7 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 
 - Login to TTN and go to your application you have previously defined the device in.
 - Now you can define the decoder for this application.  
-- The decoder can be downloaded from here [download](https://github.com/raystream/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
+- The decoder can be downloaded from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
 
 ## Connecting a sensor
 
@@ -187,13 +187,13 @@ If you have bought the ModularNode ([buy](https://www.wasn.eu/p/wasn-modular-out
 
 If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule./p>
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg" width=500>  
 </p>
 
 If not here is the pinout for connecting your sensor:
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG" width=500>  
 </p>
 
 - Vext is used for powering the sensors. This pin only delivers power to the sensor when taking the measurement.
@@ -212,7 +212,7 @@ You can check which sensor the CubeCell device has found:
 - Open the CubeCell Configurator
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
 </p>
 
   - Select your COM Port and click connect.
@@ -239,13 +239,13 @@ You can check which sensor the CubeCell device has found:
 This battery fits nicely in the capsule ([buy](https://www.wasn.eu/p/akku-100mah-fuer-capsule))
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Battery.PNG" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Battery.PNG" width=500>  
 </p>
 
 If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-capsule)) there is a battery connector installed.
 
 <p align="center">
-<img src="https://github.com/raystream/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_Battery_Connector.png" width=500>  
 </p>
 
 ## RGB LED
@@ -259,7 +259,7 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 ## Known AT Commands
 
 This are the common AT commands.
-A full list can be found in this [PDF](https://github.com/raystream/CubeCell_Getting_Started/blob/master/Manuals/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)
+A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getting_Started/blob/master/Manuals/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)
 
     AT Command              | Value                        
     ------------------------+-------------------------------------------------------------------------
