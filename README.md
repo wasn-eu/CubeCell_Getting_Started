@@ -6,7 +6,8 @@
 [Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
 [Choosing the right firmware version](#choosing-the-right-firmware-version)    
 [Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
-[Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration)  
+[Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration) 
+[Use the CubeCell Database](#use-the-cubecell-database) 
 [The Things Network decoder](#the-things-network-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
 [Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
@@ -181,7 +182,7 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 
 Search for the dataset you would like to use for the connected CubeCell and click on use.
 The data can than be written to the CubeCell by clicking on write in the config tab.
- 
+
 
 ## The Things Network decoder
 
