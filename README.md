@@ -157,6 +157,7 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 	- Set a Dutycycle (Sleeptime between 2 sends).
     - by default all uplinks are unconfirmed, if you need confirmed uplinks please enable the TX confirmed checkbox
   	- Click on Write.
+    - to save the data to the database click on save in the CubeCell Database area.
   - The keys will be saved in the CubeCell device and the device will reboot
   - In the debug text box you should see the following:
 
@@ -172,6 +173,15 @@ OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometim
 	
   - Now you should see the Join Requests in your TTN Application and short after that data comming in.
 
+## Use the CubeCell Database
+
+<p align="center">
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_database.PNG" width=750>  
+</p>
+
+Search for the dataset you would like to use for the connected CubeCell and click on use.
+The data can than be written to the CubeCell by clicking on write in the config tab.
+ 
 
 ## The Things Network decoder
 
