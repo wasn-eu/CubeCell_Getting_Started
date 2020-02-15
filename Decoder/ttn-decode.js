@@ -542,6 +542,40 @@ if (port === 2) {
         decoded.P7_HMC5883L_Z = bytesToFloat(bytes.slice(i,i+=4));
       }
     }
+    else if (sensor === "13") { // MLX90614
+      if (iicport === "0") {
+        decoded.P0_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P0_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "1") {
+        decoded.P1_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P1_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "2") {
+        decoded.P2_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P2_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "3") {
+        decoded.P3_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P3_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "4") {
+        decoded.P4_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P4_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "5") {
+        decoded.P5_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P5_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "6") {
+        decoded.P6_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P6_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+      if (iicport === "7") {
+        decoded.P7_VMLX90614_ambienttemp = bytesToFloat(bytes.slice(i,i+=4));
+        decoded.P7_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
+      }
+    }
     else if (sensor === "100") { // OneWire
       decoded.OW_01_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);   
     }
