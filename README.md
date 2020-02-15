@@ -188,7 +188,7 @@ The data can than be written to the CubeCell by clicking on write in the config 
 
 - Login to TTN and go to your application you have previously defined the device in.
 - Now you can define the decoder for this application.  
-- The decoder can be downloaded from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/TTN-Decoder/ttn-decode.js).
+- The decoder can be downloaded from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/Decoder/ttn-decode.js).
 
 ## Connecting a sensor
 
