@@ -1,9 +1,5 @@
 function bytesToFloat(by) {
-  var bits = by[3]<<24 | by[2]<<16 | by[1]<<8 | by[0];
-  var sign = (bits>>>31 === 0) ? 1.0 : -1.0;
-  var e = bits>>>23 & 0xff;
-  var m = (e === 0) ? (bits & 0x7fffff)<<1 : (bits & 0x7fffff) | 0x800000;
-  var f = sign * m * Math.pow(2, e - 150);
+  f = by[0] | by[1]<<8 | by[2]<<16 | by[3]<<24;
   return f;
 } 
 
