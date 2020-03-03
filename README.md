@@ -53,7 +53,7 @@ Here is a comparison of these types:
 | TCA9548A    |  X  |    X    |     X    | all sensors listet below |                              |
 | Mapper      |     |         |          |                          | special for WASN Mapper      |
 
-These sensors are supported:
+These sensors are supported on IIC interface:
 
 - ADS1015/ADS1115
 - BH1750   
@@ -63,9 +63,15 @@ These sensors are supported:
 - BMP280
 - CCS811   
 - HDC1080
+- HMC5883L
 - MPU9250
 - SHT2x
+- SHT31
 - VL53L1X
+
+These sensors are supported on OneWire interface:
+
+- DallasTemperature DS18B...
 
 ## Use CubeCell Configurator to upload firmware
 
