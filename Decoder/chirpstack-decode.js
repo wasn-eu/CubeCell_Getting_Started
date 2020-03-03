@@ -576,7 +576,7 @@ if (port === 2) {
         decoded.P7_VMLX90614_objecttemp = bytesToFloat(bytes.slice(i,i+=4));
       }
     }
-    if (sensor === "14") { // SHT31
+    else if (sensor === "14") { // SHT31
       if (iicport === "0") {
         decoded.P0_SHT31_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
         decoded.P0_SHT31_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
@@ -622,8 +622,17 @@ if (port === 2) {
     else if (sensor === "103") { // OneWire
       decoded.OW_04_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);   
     }
+    else if (sensor == "200") { // GPS_SER
+      decoded.latitude = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.longitude = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.altitude = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.course = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.speed = bytesToFloat(bytes.slice(i,i+=4));
+      decoded.hdop = bytesToFloat(bytes.slice(i,i+=4));
+    }
   } 
   decoded.battery = ((bytes[i++] << 8) | bytes[i++]);
+  decoded.trigger = bytes[i++];
 }
 
 return decoded;
