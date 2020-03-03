@@ -19,7 +19,7 @@ i = 0;
 //decoded.AppDataSize = bytes.length;
 
 if (port === 2) {
-  while (i < bytes.length-2) {
+  while (i < bytes.length-3) {
     iicport = bytes[i++].toFixed(0);
     sensor = bytes[i++].toFixed(0);
     if (sensor === "1") { // BME680
