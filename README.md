@@ -196,6 +196,12 @@ The data can than be written to the CubeCell by clicking on write in the config 
 - Now you can define the decoder for this application.  
 - The decoder can be downloaded from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/Decoder/ttn-decode.js).
 
+## ChirpStack decoder
+
+- Login to your ChirpStack server and go to your device profil.
+- Now you can define the decoder for this device profil under the codec tab.  
+- The decoder can be downloaded from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/Decoder/chirpstack-decode.js).
+
 ## Connecting a sensor
 
 If you have bought the IndoorNode ([buy](https://www.wasn.eu/p/wasn-indoor-node-mit-cjmcu-8128-sensor)) there is a BME280 or BME680 sensor fitted in the case.
