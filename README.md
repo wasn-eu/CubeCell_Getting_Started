@@ -54,7 +54,7 @@ Here is a comparison of these types:
 | TCA9548A    |  X  |  GPIO1  |     X    | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
 | Mapper      |     |         |          |                          |           |                    | special for WASN Mapper      |
 
-* for new MK3 firmware, will be uploaded soon.
+\* for new MK3 firmware, will be uploaded soon.
 
 These sensors are supported on IIC interface:
 
