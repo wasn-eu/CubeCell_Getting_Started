@@ -54,7 +54,7 @@ Here is a comparison of these types:
 | ModularNode |  X  |    X     |     X    | all sensors listet below |     X      |         X          | special for WASN ModularNode |
 | Mapper      |     |          |          |                          |            |                    | special for WASN Mapper      |
 
-\* OneWire is disabled for all types in MK3 firmware because of stability issues
+\* OneWire is disabled for all types in MK3 firmware because of stability issues  
 \* Interrupt and Serial for MK3 firmware only
 
 These sensors are supported on IIC interface:
