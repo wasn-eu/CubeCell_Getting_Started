@@ -45,16 +45,17 @@ You have to choose between IndoorNode, ModularNode, Board, Capsule, TCA9548A.
 
 Here is a comparison of these types:
 
-| Type        | IIC | OneWire | TCA9548A | Sensor Auto Scan         | Interrupt* | Serial*            | Comments                     |
-|-------------|-----|---------|----------|--------------------------|------------|--------------------|------------------------------|
-| Board       |  X  |  GPIO1  |          | all sensors listet below |    GPIO2   | GPIO3 TX, GPIO5 RX |                              |
-| Capsule     |  X  |         |          | all sensors listet below |    GPIO2   | GPIO3 TX, GPIO5 RX |                              |
-| TCA9548A    |  X  |  GPIO1  |     X    | all sensors listet below |    GPIO2   | GPIO3 TX, GPIO5 RX |                              |
-| IndoorNode  |  X  |         |          | only BME280/BME680       |            |                    | special for WASN IndoorNode  |
-| ModularNode |  X  |    X    |     X    | all sensors listet below |      X     |         X          | special for WASN ModularNode |
-| Mapper      |     |         |          |                          |            |                    | special for WASN Mapper      |
+| Type        | IIC | OneWire* | TCA9548A | Sensor Auto Scan         | Interrupt* | Serial*            | Comments                     |
+|-------------|-----|----------|----------|--------------------------|------------|--------------------|------------------------------|
+| Board       |  X  |  GPIO1   |          | all sensors listet below |   GPIO2    | GPIO3 TX, GPIO5 RX |                              |
+| Capsule     |  X  |          |          | all sensors listet below |   GPIO2    | GPIO3 TX, GPIO5 RX |                              |
+| TCA9548A    |  X  |  GPIO1   |     X    | all sensors listet below |   GPIO2    | GPIO3 TX, GPIO5 RX |                              |
+| IndoorNode  |  X  |          |          | only BME280/BME680       |            |                    | special for WASN IndoorNode  |
+| ModularNode |  X  |    X     |     X    | all sensors listet below |     X      |         X          | special for WASN ModularNode |
+| Mapper      |     |          |          |                          |            |                    | special for WASN Mapper      |
 
-\* for new MK3 firmware, will be uploaded soon.
+\* OneWire is disabled for all types in MK3 firmware because of stability issues
+\* Interrupt and Serial for MK3 firmware only
 
 These sensors are supported on IIC interface:
 
