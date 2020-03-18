@@ -93,13 +93,13 @@ The easy way to get the Capsule up and running is:
 </p>
 
   - just skip the next 3 steps to download the firmware from the online catalog
-    - click check to see what version is online and what version in in your offline catalog
-    - click update to update the offline catalog with the newest online version
-    - to use the offline catalog activate the checkbox "use offline Firmware catalog"
-  - Select the right COM port (if you would like to preserve configuration click connect, else not)
-  	- Select the Node Type (IndoorNode, ModularNode, Board, Capsule, TCA9548A)
-  	- Select the right frequency band (EU868, US915, AU915)
-  	-  Select RGB LED Status (on, off)
+    - click Check to see what version is online and what version in in your offline catalog
+    - click Update to update the offline catalog with the newest online version
+    - to use the offline catalog activate the checkbox "use FW catalog"
+  - Select the right COM port (if you would like to preserve configuration click Connect, else not)
+  	- Select the Node Type (Board, Capsule, TCA9548A, IndoorNode, ModularNode, Mapper)
+  	- Select the right frequency band (EU868, US915, AU915, IN865)
+  	- Select RGB LED Status (on, off)
   	- click Flash Firmware
 <p align="center">
 <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_flash_2.PNG" width=750>  
@@ -108,10 +108,10 @@ The easy way to get the Capsule up and running is:
  - If you have clicked on connect in the first step, you will see a checkbox with the option to preserve configuration, else this checkbox is not shown
    - Click on Flash Firmware to start the process
    - Firmware is now downloaded from github.
-   - The firmware will be written to the capsule 
+   - The firmware will be written to the CubeCell 
    - If you have selected to preserve configuration, the configuration is saved to the CubeCell
    - The debug text box shows the state of the firmware download and flash.
-  - If an error happens this will be in the debug text box too.
+ - If an error happens this will be in the debug text box too.
         
               Downloading Firmware …
               Downloading Firmware done
@@ -149,7 +149,8 @@ You need to flash the TCA9548A firmware to activate the use of the TCA9548A I2C 
 
 **The IndoorNode and ModularNode Firmware is only for our Nodes. This Firmwares will not work on other hardware.**
 
-OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire.
+OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire. 
+Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX. 
 
 ## Use CubeCell Configurator for configuration
 
