@@ -149,7 +149,7 @@ You need to flash the TCA9548A firmware to activate the use of the TCA9548A I2C 
 
 **The IndoorNode and ModularNode Firmware is only for our Nodes. This Firmwares will not work on other hardware.**
 
-OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire. 
+OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire.  
 Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX. 
 
 ## Use CubeCell Configurator for configuration
@@ -173,7 +173,7 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
 	- Set a Dutycycle (Sleeptime between 2 sends).
     - by default all uplinks are unconfirmed, if you need confirmed uplinks please enable the TX confirmed checkbox
   	- Click on Write.
-    - to save the data to the database click on save in the CubeCell Database area.
+    - to save the data to the database click on Save to DB in the Database area.
   - The keys will be saved in the CubeCell device and the device will reboot
   - In the debug text box you should see the following:
 
