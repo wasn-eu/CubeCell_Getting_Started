@@ -174,6 +174,7 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
     - by default all uplinks are unconfirmed, if you need confirmed uplinks please enable the TX confirmed checkbox
   	- Click on Write.
     - to save the data to the database click on Save to DB in the Database area.
+    - to read data from the database referencing the ChipID click on Read from DB.
   - The keys will be saved in the CubeCell device and the device will reboot
   - In the debug text box you should see the following:
 
@@ -247,18 +248,9 @@ You can check which sensor the CubeCell device has found:
 </p>
 
   - Select your COM Port and click connect.
-   - Click the Reset button.
-   - you should see a message with the name of your sensor:
+  - Go to the sensors tab
+   - click on search
    
-	Copyright @ 2019 Heltec Automation.All rights reserved.
-	Sensor Port Scanning...
-	  Found BME680
-	  Found MPU9250
-	...
-   - Or if you have the I2C Switch installed you will see the Port number and name of the sensor:
-   
-   	Copyright @ 2019 Heltec Automation.All rights reserved.
-	Sensor Port Scanning...
 	  Port 0
 	    Found BME680
 	  Port 1
