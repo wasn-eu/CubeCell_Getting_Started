@@ -189,6 +189,10 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
         joined
 	
   - Now you should see the Join Requests in your TTN Application and short after that data comming in.
+  - You can send AT commands to the Cubecell:
+    - type your command in the first field of the AT Commands group
+    - type the value in the sexond field of the AT Commands group
+    - hit Send
 
 ## Use the CubeCell Database
 
@@ -244,7 +248,7 @@ You can check which sensor the CubeCell device has found:
 - Open the CubeCell Configurator
 
 <p align="center">
-<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator.PNG" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_sensors.PNG" width=500>  
 </p>
 
   - Select your COM Port and click connect.
