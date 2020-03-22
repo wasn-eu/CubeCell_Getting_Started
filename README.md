@@ -248,7 +248,7 @@ You can check which sensor the CubeCell device has found:
 - Open the CubeCell Configurator
 
 <p align="center">
-<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_sensors.PNG" width=500>  
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_sensors.PNG" width=750>  
 </p>
 
   - Select your COM Port and click connect.
