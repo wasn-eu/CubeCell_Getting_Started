@@ -155,7 +155,7 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
 ## Use CubeCell Configurator for configuration
 
 - Login to TTN and create an application if you haven’t already. 
-- Under your application create a device for the CubeCell device you are setting up
+- Under your application create a device for the CubeCell you are setting up
 - Open the CubeCell Configurator
 
 <p align="center">
@@ -164,7 +164,7 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
 
   - Select your COM Port and click connect.
   - Select the Config Tab
-  	- all EUIs, Keys, \auth type and DutyCycle are read from the CubeCell device.
+  	- all EUIs, Keys, \auth type and DutyCycle are read from the CubeCell.
 	- Choose the authentification type (OTAA is default).
   	- copy the keys: 
 	  - for OTAA auth: Device EUI, Application EUI and App Key
@@ -221,12 +221,13 @@ If you have bought the IndoorNode ([buy](https://www.wasn.eu/p/wasn-indoor-node-
 
 If you have bought the ModularNode ([buy](https://www.wasn.eu/p/wasn-modular-outdoor-node)) you can connect the sensor to one of the 3 sockets.
 
-If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule./p>
+If you have bought a sensor from our Website ([buy](https://www.wasn.eu/c/sensoren)) or from Heltec then you can just plug it in the capsule.
+
+If not here is the pinout for connecting your sensor:
+
 <p align="center">
 <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_and_Sensor.jpg" width=500>  
 </p>
-
-If not here is the pinout for connecting your sensor:
 
 <p align="center">
 <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Capsule_PinOut.PNG" width=500>  
