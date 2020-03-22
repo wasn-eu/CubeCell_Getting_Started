@@ -256,11 +256,11 @@ You can check which sensor the CubeCell device has found:
   - Go to the sensors tab
    - click on search
    
-	  Port 0
-	    Found BME680
-	  Port 1
-	    Found MPU9250
-	...
+        Port 0
+	        Found BME680
+	      Port 1
+	        Found MPU9250
+	      ...
 
 ## Connecting a battery to the CubeCell Capsule
 
