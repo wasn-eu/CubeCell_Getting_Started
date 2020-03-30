@@ -291,7 +291,7 @@ This are the common AT commands.
 A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getting_Started/blob/master/Manuals/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)
 
     AT Command              | Value                        
-    ------------------------+-------------------------------------------------------------------------
+    ------------------------|-------------------------------------------------------------------------
     +LORAWAN=1              | LoRaWAN  1, LoRa 0
     +OTAA=1                 | OTAA -1, ABP-0  
     +Class=A                | Class A or C  
