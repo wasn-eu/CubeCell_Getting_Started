@@ -34,7 +34,9 @@
 
 - connect the micro USB of the USB board to your computer  
 
-If you have a Indoor/ModularNode or CubeCell board just connect the micro USB to your computer
+If you have a IndoorNode or CubeCell board just connect the micro USB to your computer.
+
+If you have a ModularNode connect the supplied USB cable to your computer.
 
 The drivers for the Silabs CP210x USB to serial adapter should be installed automatically via windows update. If not you can download it [here](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip).
 
@@ -45,17 +47,16 @@ You have to choose between IndoorNode, ModularNode, Board, Capsule, TCA9548A.
 
 Here is a comparison of these types:
 
-| Type        | IIC | OneWire* | TCA9548A | Sensor Auto Scan         | Interrupt* | Serial*            | Comments                     |
-|-------------|-----|----------|----------|--------------------------|------------|--------------------|------------------------------|
-| Board       |  X  |  GPIO1   |          | all sensors listet below |   GPIO2    | GPIO3 TX, GPIO5 RX |                              |
-| Capsule     |  X  |          |          | all sensors listet below |   GPIO2    | GPIO3 TX, GPIO5 RX |                              |
-| TCA9548A    |  X  |  GPIO1   |     X    | all sensors listet below |   GPIO2    | GPIO3 TX, GPIO5 RX |                              |
-| IndoorNode  |  X  |          |          | only BME280/BME680       |            |                    | special for WASN IndoorNode  |
-| ModularNode |  X  |    X     |     X    | all sensors listet below |     X      |         X          | special for WASN ModularNode |
-| Mapper      |     |          |          |                          |            |                    | special for WASN Mapper      |
+| Type        | IIC | OneWire* | TCA9548A | Sensor Auto Scan         | Interrupt | Serial             | Comments                     |
+|-------------|-----|----------|----------|--------------------------|-----------|--------------------|------------------------------|
+| Board       |  X  |  GPIO1   |          | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
+| Capsule     |  X  |          |          | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
+| TCA9548A    |  X  |  GPIO1   |     X    | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
+| IndoorNode  |  X  |          |          | only BME280/BME680       |           |                    | special for WASN IndoorNode  |
+| ModularNode |  X  |    X     |     X    | all sensors listet below |     X     |         X          | special for WASN ModularNode |
+| Mapper      |     |          |          |                          |           |                    | special for WASN Mapper      |
 
 \* OneWire is disabled for all types in MK3 firmware because of stability issues  
-\* Interrupt and Serial for MK3 firmware only
 
 These sensors are supported on IIC interface:
 
@@ -305,10 +306,10 @@ A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getti
     +NwkSKey=???            | Unique (ABP Mode)
     +Passkey=???            | Unique (ABP Mode)
     +DevAddr=???            | Unique (ABP Mode) 
-    +LPM=1  	        | Low Power Mode
-    +ChipID=?	        | get ChipID
+    +LPM=1  	              | Low Power Mode
+    +ChipID=?	              | get ChipID
     +JOIN=1	                | start join
-    +DelCDKEY=1 	        | to delete the CDKEY
+    +DelCDKEY=1 	          | to delete the CDKEY
     +DefaultSet=1           | to reset parameter to Default setting
     
 
