@@ -226,28 +226,28 @@ if (port === 2) {
     }
     if (sensor === "6") { // BH1750
       if (iicport === "0") {  
-        decoded.P0_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P0_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "1") {  
-        decoded.P1_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P1_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "2") {  
-        decoded.P2_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P2_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "3") {  
-        decoded.P3_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P3_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "4") {  
-        decoded.P4_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P4_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "5") {  
-        decoded.P5_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P5_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "6") {  
-        decoded.P6_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P6_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
       if (iicport === "7") {  
-        decoded.P7_BH1750_lux = ((bytes[i++] << 8) | bytes[i++]).toFixed(0);
+        decoded.P7_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0);
       }
     }
     if (sensor === "7") { // BMP280
@@ -608,6 +608,40 @@ if (port === 2) {
       if (iicport === "7") {
         decoded.P7_SHT31_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
         decoded.P7_SHT31_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+    }
+    else if (sensor === "15") { // SOIL MOISTURE
+      if (iicport === "0") {
+        decoded.P0_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P0_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "1") {
+        decoded.P1_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P1_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "2") {
+        decoded.P2_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P2_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "3") {
+        decoded.P3_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P3_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "4") {
+        decoded.P4_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P4_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "5") {
+        decoded.P5_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P5_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "6") {
+        decoded.P6_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P6_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
+      }
+      if (iicport === "7") {
+        decoded.P7_SOIL_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100);
+        decoded.P7_SOIL_capacity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
       }
     }
     else if (sensor === "100") { // OneWire
