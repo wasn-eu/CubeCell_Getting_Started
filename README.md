@@ -11,6 +11,7 @@
 [The Things Network decoder](#the-things-network-decoder)  
 [ChirpStack decoder](#chirpstack-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
+[Connecting an external Trigger](#connecting-an-eternal-trigger)  
 [Connecting a battery to the CubeCell Capsule](#connecting-a-battery-to-the-cubecell-capsule)  
 [RGB LED](#rgb-led)  
 [Known AT Commands](#known-at-commands)
@@ -261,6 +262,17 @@ You can check which sensor the CubeCell device has found:
          Port 1
            Found MPU9250
          ...
+
+## Connecting an external trigger
+
+You can trigger sending a package with an external switch.
+
+Just connect a normally open switch to the GPIO pin mentioned in the table at the beginning og this guide and 3.3V.
+
+If the switch is now closed, all sensor data is send.
+
+To see if the trigger for sending a package was the timer or the external trigger there is the variable trigger in the decoder.
+If this variable is 1 then sending was triggerd by timer, if the variable i 0 then sending was triggert from the external trigger. 
 
 ## Connecting a battery to the CubeCell Capsule
 
