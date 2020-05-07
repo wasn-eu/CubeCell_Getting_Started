@@ -303,24 +303,38 @@ A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getti
 
 | AT Command           | Value                        
 |----------------------|-------------------------------------------------------------------|
-| +LORAWAN=1           | LoRaWAN  1, LoRa 0                                                |
-| +OTAA=1              | OTAA -1, ABP-0                                                    |
-| +Class=A             | Class A or C                                                      |
-| +ADR=1               | 1 on 0 for off                                                    |
-| +IsTxConfirmed=1     | LoRaWAN ACK Message 1 on, 0 off.                                  |
-| +AppPort=2           | The Application Port 2 for general APPs and 10 for TTN MAPPER.    |
-| +DutyCycle=60000     | The time between transmission in mS. Typically, 15000 to 3600000  |
-| +ConfirmedNbTrials=8 | The number of adaptive rate changes allowed.                      |
-| +DevEui=?            | Unique (OTAA Mode)                                                |
+| +ADR=?               | on 1, off 0                                                       |
 | +AppEui=?            | Unique (OTAA Mode)                                                |
 | +AppKey=?            | Unique (OTAA Mode)                                                |
-| +NwkSKey=?           | Unique (ABP Mode)                                                 |
-| +Passkey=?           | Unique (ABP Mode)                                                 |
-| +DevAddr=?           | Unique (ABP Mode)                                                 |
-| +LPM=1  	       | Low Power Mode                                                    |
-| +ChipID=?	       | get ChipID                                                        |
-| +JOIN=1	       | start join                                                        |
-| +DelCDKEY=1 	       | to delete the CDKEY                                               |
+| +AppPort=?           | The Application Port 2 for general APPs and 10 for TTN MAPPER.    |
+| +ChipID=?	           | get ChipID                                                        |
+| +ChMask=?            | set the channelmask in the frequencyband                          |
+| +Class=?             | Class A or C                                                      |
+| +ConfirmedNbTrials=? | The number of adaptive rate changes allowed. Default 4            |
 | +DefaultSet=1        | to reset parameter to Default setting                             |
+| +DelCDKEY=1 	       | to delete the CDKEY                                               |
+| +DevAddr=?           | Unique (ABP Mode)                                                 |
+| +DevEui=?            | Unique (OTAA Mode)                                                |
+| +DutyCycle=?         | The time between transmission in mS. Typically, 15000 to 3600000  |
+| +IsTxConfirmed=?     | LoRaWAN ACK Message 1 on, 0 off.                                  |
+| +Join=1	             | start join                                                        |
+| +LORAWAN=?           | LoRaWAN  1, LoRa 0                                                |
+| +LPM=1  	           | Low Power Mode                                                    |
+| +NwkSKey=?           | Unique (ABP Mode)                                                 |
+| +OTAA=?              | OTAA 1, ABP 0                                                     |
+| +Passkey=?           | Unique (ABP Mode)                                                 |
+| +RESET=1             | device reset                                                      |
+| +XXX                 | wake up from deep sleep                                           |
+
+This are special AT commands for our firmware  
+
+| AT Command           | Value                                                             |
+|----------------------|-------------------------------------------------------------------|
+| +BATTERY=?           | shows current battery voltage                                     |
+| +FLASH=?             | shows firmware type                                               |
+| +GPS=?               | turn GPS on 1, turn GPS off 0                                     |
+| +LED=?               | shows if RGB LED is activated                                     |
+| +VER=?               | shows firmware version                                            |
+
     
 
