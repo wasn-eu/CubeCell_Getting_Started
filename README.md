@@ -301,7 +301,7 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 This are the common AT commands.
 A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getting_Started/blob/master/Manuals/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)
 
-| AT Command           | Value                        
+| AT Command           | Value                                                             |
 |----------------------|-------------------------------------------------------------------|
 | +ADR=?               | on 1, off 0                                                       |
 | +AppEui=?            | Unique (OTAA Mode)                                                |
