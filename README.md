@@ -53,7 +53,7 @@ Here is a comparison of these types:
 | Board       |  X  |  GPIO1   |          | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
 | Capsule     |  X  |          |          | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
 | TCA9548A    |  X  |  GPIO1   |     X    | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
-| IndoorNode  |  X  |          |          | only BME280/BME680       |           |                    | special for WASN IndoorNode  |
+| IndoorNode  |  X  |          |          | only BME280/BME680       |     x     |                    | special for WASN IndoorNode  |
 | ModularNode |  X  |    X     |     X    | all sensors listet below |     X     |         X          | special for WASN ModularNode |
 | Mapper      |     |          |          |                          |           |                    | special for WASN Mapper      |
 
@@ -73,6 +73,7 @@ These sensors are supported on IIC interface:
 - SHT2x
 - SHT31
 - VL53L1X
+- Adafruit STEMMA Soil Sensor 
 
 These sensors are supported on OneWire interface:
 
