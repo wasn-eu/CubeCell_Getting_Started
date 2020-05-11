@@ -53,7 +53,7 @@ Here is a comparison of these types:
 | Board       |  X  |  GPIO1   |          | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
 | Capsule     |  X  |          |          | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
 | TCA9548A    |  X  |  GPIO1   |     X    | all sensors listet below |   GPIO2   | GPIO3 TX, GPIO5 RX |                              |
-| IndoorNode  |  X  |          |          | only BME280/BME680       |     X     |                    | special for WASN IndoorNode  |
+| IndoorNode  |  X  |          |          | fixed BME280/BME680 & one port with all sensors listet below |     X     |                    | special for WASN IndoorNode  |
 | ModularNode |  X  |    X     |     X    | all sensors listet below |     X     |         X          | special for WASN ModularNode |
 | Mapper      |     |          |          |                          |           |                    | special for WASN Mapper      |
 
@@ -273,7 +273,7 @@ Just connect a normally open switch to the GPIO pin mentioned in the table at th
 If the switch is now closed, all sensor data is send.
 
 To see if the trigger for sending a package was the timer or the external trigger there is the variable trigger in the decoder.
-If this variable is 1 then sending was triggerd by timer, if the variable i 0 then sending was triggert from the external trigger. 
+If this variable is 1 then sending was triggerd by timer, if the variable i 0 then sending was triggerd from the external trigger. 
 
 ## Connecting a battery to the CubeCell Capsule
 
@@ -318,9 +318,9 @@ A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getti
 | +DevEui=?            | Unique (OTAA Mode)                                                |
 | +DutyCycle=?         | The time between transmission in mS. Typically, 15000 to 3600000  |
 | +IsTxConfirmed=?     | LoRaWAN ACK Message 1 on, 0 off.                                  |
-| +Join=1	             | start join                                                        |
+| +Join=1	       | start join                                                        |
 | +LORAWAN=?           | LoRaWAN  1, LoRa 0                                                |
-| +LPM=1  	           | Low Power Mode                                                    |
+| +LPM=1  	       | Low Power Mode                                                    |
 | +NwkSKey=?           | Unique (ABP Mode)                                                 |
 | +OTAA=?              | OTAA 1, ABP 0                                                     |
 | +Passkey=?           | Unique (ABP Mode)                                                 |
@@ -335,6 +335,7 @@ This are special AT commands for our firmware
 | +FLASH=?             | shows firmware type                                               |
 | +GPS=?               | turn GPS on 1, turn GPS off 0                                     |
 | +LED=?               | shows if RGB LED is activated                                     |
+| +REGION=?            | shows frequency band for installed firmware                       |
 | +VER=?               | shows firmware version                                            |
 
     
