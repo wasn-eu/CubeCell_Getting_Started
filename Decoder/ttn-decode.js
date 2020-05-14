@@ -27,56 +27,56 @@ if (port === 2) {
         decoded.P0_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P0_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P0_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P0_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P0_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P0_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "1") {
         decoded.P1_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P1_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P1_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P1_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P1_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P1_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "2") {
         decoded.P2_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P2_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P2_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P2_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P2_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P2_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "3") {
         decoded.P3_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P3_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P3_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P3_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P3_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P3_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "4") {
         decoded.P4_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P4_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P4_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P4_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P4_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P4_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "5") {
         decoded.P5_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P5_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P5_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P5_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P5_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P5_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "6") {
         decoded.P6_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P6_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P6_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P6_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P6_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P6_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
       if (iicport === "7") {
         decoded.P7_BME680_temperature = ((((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10) - 100); 
         decoded.P7_BME680_humidity = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
         decoded.P7_BME680_pressure = (((bytes[i++] << 8) | bytes[i++]).toFixed(0) / 10);
-        decoded.P7_BME680_gas = ((bytes[i++] << 8) | bytes[i++]);
+        decoded.P7_BME680_gas = bytesToFloat(bytes.slice(i,i+=4));
         decoded.P7_BME680_IAQ = ((bytes[i++] << 8) | bytes[i++]);
       }
     }

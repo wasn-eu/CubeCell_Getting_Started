@@ -64,8 +64,7 @@ These sensors are supported on IIC interface:
 - ADS1015/ADS1115
 - BH1750   
 - BME680 
-- BME280 
-- BMP280
+- BME280
 - CCS811   
 - HDC1080
 - HMC5883L
