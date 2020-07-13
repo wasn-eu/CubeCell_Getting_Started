@@ -332,7 +332,7 @@ This are special AT commands for our firmware
 |----------------------|-------------------------------------------------------------------|
 | +BATTERY=?           | shows current battery voltage                                     |
 | +FLASH=?             | shows firmware type                                               |
-| +GPS=?               | turn GPS on 1, turn GPS off 0                                     |
+| +GPS=?               | shows GPS status, on 1, off 0                                     |
 | +LED=?               | shows if RGB LED is activated                                     |
 | +REGION=?            | shows frequency band for installed firmware                       |
 | +VER=?               | shows firmware version                                            |
