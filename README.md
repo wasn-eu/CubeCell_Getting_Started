@@ -299,7 +299,7 @@ If you have bought the Capsule from us ([buy](https://www.wasn.eu/p/cubecell-cap
 ## Known AT Commands
 
 This are the common AT commands.
-A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getting_Started/blob/master/Manuals/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)
+A full list can be found in this [PDF](https://github.com/wasn-eu/CubeCell_Getting_Started/blob/master/Manuals/CubeCell_Series_AT_Command_User_Manual_V0.4.pdf)
 
 | AT Command           | Value                                                             |
 |----------------------|-------------------------------------------------------------------|
