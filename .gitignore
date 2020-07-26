@@ -3,3 +3,4 @@ Firmware/.build
 Firmware/last
 Configurator/Firmware
 Configurator/database.csv
+Configurator/onlinedb.csv
