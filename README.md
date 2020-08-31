@@ -4,10 +4,15 @@
 
 
 [Connecting the Indoor/ModularNode or a Cubell to your computer](#connecting-the-indoor/modularnode-or-cubecell-to-your-computer)  
-[Choosing the right firmware version](#choosing-the-right-firmware-version)    
-[Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
-[Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration)  
-[Use the CubeCell Database](#use-the-cubecell-database)  
+[Choosing the right firmware version](#choosing-the-right-firmware-version)   
+[Configurator for Windows](#configurator-for-windows)
+  [Use CubeCell Configurator to upload firmware](#use-cubecell-configurator-to-upload-firmware)  
+  [Use CubeCell Configurator for configuration](#use-cubecell-configurator-for-configuration)  
+  [Use the CubeCell Database](#use-the-cubecell-database) 
+[Configurator for Android](#configurator-for-android) 
+  [Use Android Configurator for configuration](#use-android-configurator-or-configuration) 
+  [Use the Android Database](#use-the-android-database) 
+[Use the Cloud Database](#use-the-cloud-database) 
 [The Things Network decoder](#the-things-network-decoder)  
 [ChirpStack decoder](#chirpstack-decoder)  
 [Connecting a sensor](#connecting-a-sensor)  
@@ -82,7 +87,9 @@ These sensors are supported on Serial interface:
 
 - GPS with 9600baud
 
-## Use CubeCell Configurator to upload firmware
+## Configurator for Windows
+
+#### Use CubeCell Configurator to upload firmware
 
 The easy way to get the Capsule up and running is:
 
@@ -153,7 +160,7 @@ You need to flash the TCA9548A firmware to activate the use of the TCA9548A I2C 
 OneWire Sensors will be supported on GPIO1. Right now the CubeCell hangs sometimes with activated OneWire.  
 Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX. 
 
-## Use CubeCell Configurator for configuration
+#### Use CubeCell Configurator for configuration
 
 - Login to TTN and create an application if you haven’t already. 
 - Under your application create a device for the CubeCell you are setting up
@@ -195,7 +202,7 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
     - type the value in the sexond field of the AT Commands group
     - hit Send
 
-## Use the CubeCell Database
+#### Use the CubeCell Database
 
 <p align="center">
 <img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/Configurator_database.PNG" width=750>  
@@ -203,6 +210,50 @@ Serial GPS modules are supported, connect GPIO3 TX and GPIO5 RX.
 
 Search for the dataset you would like to use for the connected CubeCell and click on use.
 The data can than be written to the CubeCell by clicking on write in the config tab.
+
+## Configurator for Android
+
+#### Use CubeCell Configurator for configuration
+
+- Login to TTN and create an application if you haven’t already. 
+- Under your application create a device for the CubeCell you are setting up
+- Open the WASN Configurator for Android
+
+<p align="center">
+<img src="https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/images/android_configurator.PNG" width=750>  
+</p>
+
+  - Connect your Node to your Android device with an OTG adapter
+  - Select the Config Tab
+  	- click on the read button to read the configuration from the node
+	- Choose the authentification type (OTAA is default).
+  	- copy the keys: 
+	  - for OTAA auth: Device EUI, Application EUI and App Key
+	  - for ABP auth: Device EUI, Application EU, Device Address, Network Session Key and App Session Key
+    - Please note that you should copy and paste only one key at a time. On TTN you will notice that there is a Copy icon at the end of each key field. Then back in the Configurator screen just paste each value you copied from the TTN device screen
+	- Set a Dutycycle (Sleeptime between 2 sends) in ms.
+    - by default all uplinks are unconfirmed, if you need confirmed uplinks please set TX conf to ON
+  	- Click on the write button.
+    - to save the data to the database click on the DB save button.
+    - to read data from the database referencing the ChipID click on the DB get button.
+  - The keys will be saved in the CubeCell device and the device will reboot
+  - In the log tab you should see the following:
+
+        AT+DevEui=YOURDEVEUI
+        AT+AppEui=YOURAPPEUI
+        AT+AppKey=YOURAPPKEY
+        AT+DutyCycle=YOURDUTYCYCLEINMS
+        AT+RESET=1
+        ...
+        ...
+        joining...
+        joined
+	
+  - Now you should see the Join Requests in your TTN Application and short after that data comming in.
+
+#### Use the Android Database
+
+
 
 ## The Things Network decoder
 
