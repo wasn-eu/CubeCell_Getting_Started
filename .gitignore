@@ -4,3 +4,6 @@ Firmware/last
 Configurator/Firmware
 Configurator/database.csv
 Configurator/onlinedb.csv
+
+.fake
+.ionide
