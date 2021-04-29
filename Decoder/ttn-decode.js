@@ -226,28 +226,28 @@ if (port === 2) {
     }
     if (sensor === "6") { // BH1750
       if (iicport === "0") {  
-        decoded.P0_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1;
+        decoded.P0_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "1") {  
-        decoded.P1_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1;
+        decoded.P1_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "2") {  
-        decoded.P2_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1;
+        decoded.P2_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "3") {  
-        decoded.P3_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1;
+        decoded.P3_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "4") {  
-        decoded.P4_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1:
+        decoded.P4_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "5") {  
-        decoded.P5_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1;
+        decoded.P5_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "6") {  
-        decoded.P6_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1;
+        decoded.P6_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
       if (iicport === "7") {  
-        decoded.P7_BH1750_lux = (((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1:
+        decoded.P7_BH1750_lux = ((((bytes[i++] << 8) | bytes[i++]) * 2.5).toFixed(0)/1);
       }
     }
     if (sensor === "7") { // BMP280
