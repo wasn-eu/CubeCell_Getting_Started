@@ -216,7 +216,7 @@ The data can than be written to the CubeCell by clicking on write in the config 
 #### Use Android Configurator for configuration
 
 - Download the Android Configurator from here [download](https://github.com/wasn-eu/CubeCell_Getting_Started/raw/master/Configurator_Android/WASN%20Configurator.apk).
-  or from [Google Play](https://play.google.com/store/apps/details?id=com.wasn.wasnconfigurator) 
+  or from [Google Play](https://play.google.com/store/apps/details?id=com.wasneu.wasnconfigurator) 
 - Login to TTN and create an application if you haven’t already. 
 - Under your application create a device for the CubeCell you are setting up
 - Open the WASN Configurator for Android
